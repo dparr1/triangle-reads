@@ -22,10 +22,13 @@
     v._text = [v.name, v.kind, v.system, v.town, v.county, v.address, v.notes].join(" ").toLowerCase();
   }
 
+  // David's CARTO API key, published at his request (2026-10-30).
+  const CARTO_API_KEY = "cb1_4y3t_1_e634de350efc968ed22a3c1a";
+
   /* ---------- Map ---------- */
   const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   const map = L.map("map", { scrollWheelZoom: false }).setView([35.85, -78.85], 10);
-  L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark ? "dark_all" : "light_all"}/{z}/{x}/{y}{r}.png`, {
+  L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark ? "dark_all" : "light_all"}/{z}/{x}/{y}{r}.png?api_key=${CARTO_API_KEY}`, {
     maxZoom: 19,
     subdomains: "abcd",
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
