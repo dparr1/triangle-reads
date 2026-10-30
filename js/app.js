@@ -12,7 +12,8 @@
 
   // Search text is precomputed once per event.
   for (const e of EVENTS) {
-    e._text = [e.title, e.host, e.location, e.city, e.county, e.space, e.notes, ...e.types].join(" ").toLowerCase();
+    e.lastDate = e.endDate || e.date;
+    e._text = [e.title, e.host, e.location, e.city, e.county, e.space, e.notes, e.description || "", ...e.types].join(" ").toLowerCase();
   }
 
   const state = {
@@ -57,7 +58,7 @@
 
   /* ---------- Filtering ---------- */
   function matches(e, opts = {}) {
-    if (!opts.ignorePast && !state.past && e.date < TODAY) return false;
+    if (!opts.ignorePast && !state.past && e.lastDate < TODAY) return false;
     if (!opts.ignoreType && state.types.size && !e.types.some((t) => state.types.has(t))) return false;
     if (state.city && e.city !== state.city) return false;
     if (state.space && e.space !== state.space) return false;
@@ -79,6 +80,10 @@
     return m ? `${h}:${pad(m)} ${ap}` : `${h} ${ap}`;
   }
   function timeRange(e) {
+    if (e.endDate) {
+      const through = parseDate(e.endDate).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      return `${e.start ? fmtTime(e.start) + ", " : ""}through ${through}`;
+    }
     if (!e.start || e.start === "00:00" && (!e.end || e.end === "23:59")) return "All day";
     return e.end && e.end !== e.start ? `${fmtTime(e.start)} – ${fmtTime(e.end)}` : fmtTime(e.start);
   }
@@ -88,7 +93,7 @@
   function gcalLink(e) {
     const d = e.date.replace(/-/g, "");
     const t = (x) => (x || "").replace(":", "") + "00";
-    const next = parseDate(e.date); next.setDate(next.getDate() + 1);
+    const next = parseDate(e.lastDate); next.setDate(next.getDate() + 1);
     const dates = e.start ? `${d}T${t(e.start)}/${d}T${t(e.end || e.start)}` : `${d}/${isoDate(next).replace(/-/g, "")}`;
     const p = new URLSearchParams({
       action: "TEMPLATE",
@@ -111,6 +116,7 @@
         <div>
           <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></h3>
           <p class="meta"><strong>${esc(e.host)}</strong> · ${esc(e.location)}</p>
+          ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ""}
           <div class="tags">
             ${e.types.map((t) => `<span class="tag" data-type="${esc(t)}">${esc(t)}</span>`).join("")}
             <span class="tag space">${esc(e.space)}</span>
@@ -125,14 +131,17 @@
       </li>`;
   }
 
-  function groupedList(events) {
+  // `day` puts every event under that one date (used for a calendar day,
+  // where multi-day events started earlier).
+  function groupedList(events, day) {
     if (!events.length) {
       return `<div class="empty">No events match these filters. <button class="link-btn" type="button" data-clear>Clear filters</button></div>`;
     }
     const byDay = new Map();
     for (const e of events) {
-      if (!byDay.has(e.date)) byDay.set(e.date, []);
-      byDay.get(e.date).push(e);
+      const key = day || e.date;
+      if (!byDay.has(key)) byDay.set(key, []);
+      byDay.get(key).push(e);
     }
     let html = "";
     for (const [day, list] of byDay) {
@@ -202,8 +211,8 @@
 
   function defaultMonth() {
     const cur = TODAY.slice(0, 7);
-    if (EVENTS.some((e) => e.date.startsWith(cur) && e.date >= TODAY)) return cur;
-    const next = EVENTS.find((e) => e.date >= TODAY) || EVENTS[EVENTS.length - 1];
+    if (EVENTS.some((e) => e.date.startsWith(cur) && e.lastDate >= TODAY)) return cur;
+    const next = EVENTS.find((e) => e.lastDate >= TODAY) || EVENTS[EVENTS.length - 1];
     return next ? next.date.slice(0, 7) : cur;
   }
 
@@ -228,11 +237,16 @@
     $("cal-title").textContent = first.toLocaleDateString("en-US", { month: "long", year: "numeric" });
 
     // Calendar shows the whole month, past days included, with the other filters applied.
-    const inMonth = EVENTS.filter((e) => e.date.startsWith(state.month) && matches(e, { ignorePast: true }));
+    const monthStart = state.month + "-01", monthEnd = state.month + "-31";
+    const inMonth = EVENTS.filter((e) => e.date <= monthEnd && e.lastDate >= monthStart && matches(e, { ignorePast: true }));
+    // Multi-day events appear on every day they run.
     const byDay = new Map();
     for (const e of inMonth) {
-      if (!byDay.has(e.date)) byDay.set(e.date, []);
-      byDay.get(e.date).push(e);
+      for (let d = parseDate(e.date); isoDate(d) <= e.lastDate; d.setDate(d.getDate() + 1)) {
+        const iso = isoDate(d);
+        if (!byDay.has(iso)) byDay.set(iso, []);
+        byDay.get(iso).push(e);
+      }
     }
 
     let html = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((d) => `<div class="dow">${d}</div>`).join("");
@@ -259,7 +273,7 @@
 
     const detail = state.day && state.day.startsWith(state.month) ? (byDay.get(state.day) || []) : null;
     $("day-detail").innerHTML = detail
-      ? (detail.length ? groupedList(detail) : `<div class="empty">Nothing on ${esc(fmtDay(state.day))} with these filters.</div>`)
+      ? (detail.length ? groupedList(detail, state.day) : `<div class="empty">Nothing on ${esc(fmtDay(state.day))} with these filters.</div>`)
       : (inMonth.length ? `<p class="note">Select a day to see its events.</p>` : `<div class="empty">No events this month match these filters.</div>`);
   }
 

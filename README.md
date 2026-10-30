@@ -11,8 +11,10 @@ A static website listing book and reading events at libraries and bookstores in 
 | `js/app.js` | Search, filters, list view and month calendar |
 | `data/events.js` | The events the page shows (generated, don't edit by hand) |
 | `data/events.json` | Same events as JSON, for other uses |
-| `data/events_2026-11.csv` | Source event list for November 2026 |
+| `data/events_calendar.csv` | Events pulled from the Triangle Reads Google Calendar (what the site shows) |
+| `data/events_2026-11.csv` | Earlier hand-made November 2026 list (kept for reference) |
 | `data/triangle_*.csv` | Libraries, bookstores, towns and counties used to tag events |
+| `tools/import_gcal.py` | Turns a Google Calendar events export (JSON) into `data/events_calendar.csv` |
 | `tools/build_events.py` | Turns event CSVs into `data/events.js` |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 
@@ -26,6 +28,22 @@ Double-click `index.html`. It works straight from the folder, no server needed.
 2. Upload everything in this folder to the repository (on the repository page: **Add file → Upload files**, then drag in the folder contents, including the `css`, `js`, `data` and `tools` folders).
 3. Go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, pick `main` and `/ (root)`, and save.
 4. After a minute the site is live at `https://<your-username>.github.io/triangle-reads/`.
+
+## Updating from the Google Calendar
+
+The Triangle Reads Google Calendar is the main source of events. Calendar titles look like `Title (Host, note)` and descriptions end with `Source: <link>`.
+
+1. Export the calendar's events as JSON from the Google Calendar API (or ask Claude to pull them).
+2. Run:
+
+   ```
+   python tools/import_gcal.py calendar.json data/events_calendar.csv
+   python tools/build_events.py data/events_calendar.csv
+   ```
+
+3. Upload the new `data/events.js` to GitHub.
+
+The site's header links to the Google Calendar. Those links only work for visitors if the calendar is public (Google Calendar → Settings for the calendar → Access permissions → Make available to public).
 
 ## Adding next month's events
 

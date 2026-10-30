@@ -6,10 +6,11 @@ window.TR_EVENTS = [
   "date": "2026-11-01",
   "start": "10:30",
   "end": "11:00",
-  "title": "Under the Tree Storytime (Sat/Sun/Mon through Nov 23)",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -17,7 +18,8 @@ window.TR_EVENTS = [
    "For Kids"
   ],
   "url": "https://www.quailridgebooks.com/events/2026/11",
-  "notes": "recurring; end time assumed"
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
  },
  {
   "id": "2026-11-01-1",
@@ -25,6 +27,7 @@ window.TR_EVENTS = [
   "start": "14:00",
   "end": "15:30",
   "title": "Kennedy Ryan: Long Shot collector's edition",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
   "location": "Wake Forest Renaissance Centre, 405 S Brooks St, Wake Forest",
@@ -35,7 +38,8 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://page158books.com/event/2026-11-01/author-event-kennedy-ryan",
-  "notes": "ticketed; end time assumed"
+  "notes": "ticketed; end time assumed",
+  "description": "Author event celebrating the collector's edition of Long Shot; tickets via Eventbrite."
  },
  {
   "id": "2026-11-01-2",
@@ -43,9 +47,10 @@ window.TR_EVENTS = [
   "start": "15:00",
   "end": "16:00",
   "title": "Book Club Against Authoritarianism: The Nerd Reich",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -53,25 +58,28 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-01/book-club-against-authoritarianism",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Book club with Wake Forest Indivisible."
  },
  {
   "id": "2026-11-02-3",
   "date": "2026-11-02",
-  "start": "18:00",
-  "end": "19:30",
-  "title": "Silent Book Club Meeting",
-  "host": "Flyleaf Books",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
-  "city": "Chapel Hill",
-  "county": "Orange",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
   "space": "Bookstore",
   "types": [
-   "Book Club"
+   "For Kids"
   ],
-  "url": "https://flyleafbooks.com/event/2026-11-02/silent-book-club-meeting",
-  "notes": ""
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
  },
  {
   "id": "2026-11-02-4",
@@ -79,9 +87,10 @@ window.TR_EVENTS = [
   "start": "18:00",
   "end": "19:00",
   "title": "Horror Book Club: Mister Magic",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -89,35 +98,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-02/horror-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: Mister Magic by Kiersten White."
  },
  {
   "id": "2026-11-02-5",
   "date": "2026-11-02",
   "start": "18:00",
   "end": "19:00",
-  "title": "Siera London: A Hard Habit to Break",
-  "host": "Page 158 Books",
-  "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
-  "city": "Wake Forest",
-  "county": "Wake",
-  "space": "Bookstore",
-  "types": [
-   "Author Event"
-  ],
-  "url": "https://page158books.com/event/2026-11-02/author-event-siera-london",
-  "notes": "end time assumed"
- },
- {
-  "id": "2026-11-02-6",
-  "date": "2026-11-02",
-  "start": "18:00",
-  "end": "19:00",
   "title": "The Book Was Better Book Club",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -125,17 +118,59 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-02/book-was-better-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "Led by David Leone; reads a book that inspired a movie or show."
+ },
+ {
+  "id": "2026-11-02-6",
+  "date": "2026-11-02",
+  "start": "18:00",
+  "end": "19:30",
+  "title": "Silent Book Club Meeting",
+  "endDate": "",
+  "host": "Flyleaf Books",
+  "hostType": "Bookstore",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://flyleafbooks.com/event/2026-11-02/silent-book-club-meeting",
+  "notes": "",
+  "description": "Quiet reading meetup."
  },
  {
   "id": "2026-11-02-7",
   "date": "2026-11-02",
+  "start": "18:00",
+  "end": "19:00",
+  "title": "Siera London: A Hard Habit to Break",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://page158books.com/event/2026-11-02/author-event-siera-london",
+  "notes": "end time assumed",
+  "description": "Author event; RSVP via Eventbrite."
+ },
+ {
+  "id": "2026-11-02-8",
+  "date": "2026-11-02",
   "start": "19:00",
   "end": "20:00",
   "title": "Mystery Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -143,17 +178,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-02/mystery-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Monthly club; members read a mystery fitting the month's topic."
  },
  {
-  "id": "2026-11-03-8",
+  "id": "2026-11-03-9",
   "date": "2026-11-03",
   "start": "11:00",
   "end": "11:30",
-  "title": "Storytime (Tue/Sat through Nov 28)",
+  "title": "Storytime",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -161,17 +198,19 @@ window.TR_EVENTS = [
    "For Kids"
   ],
   "url": "https://www.page158books.com/events/2026/11",
-  "notes": "recurring; end time assumed"
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
  },
  {
-  "id": "2026-11-03-9",
+  "id": "2026-11-03-10",
   "date": "2026-11-03",
   "start": "17:00",
   "end": "18:00",
   "title": "Max Brallier: The Last Kids on Earth and the Zombie Parade",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -180,17 +219,19 @@ window.TR_EVENTS = [
    "For Kids"
   ],
   "url": "https://flyleafbooks.com/event/brallier-2026",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Author talk for the graphic novel; seating for up to 120 in-person guests."
  },
  {
-  "id": "2026-11-03-10",
+  "id": "2026-11-03-11",
   "date": "2026-11-03",
   "start": "18:00",
   "end": "19:00",
   "title": "Evening Book Club: The Frozen River",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -198,17 +239,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-03/evening-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: The Frozen River by Ariel Lawhon."
  },
  {
-  "id": "2026-11-04-11",
+  "id": "2026-11-04-12",
   "date": "2026-11-04",
   "start": "13:30",
   "end": "15:30",
   "title": "Writer's Office Hours with Margot Lester",
+  "endDate": "",
   "host": "McIntyre's Books",
   "hostType": "Bookstore",
-  "location": "220 Market St, Fearrington Village, Pittsboro",
+  "location": "McIntyre's Books, 220 Market Street, Fearrington Village, Pittsboro",
   "city": "Pittsboro",
   "county": "Chatham",
   "space": "Bookstore",
@@ -216,17 +259,19 @@ window.TR_EVENTS = [
    "Writing"
   ],
   "url": "https://mcintyresbooks.com/events/calendar/2026/11",
-  "notes": ""
+  "notes": "",
+  "description": "Writer's office hours with Margot Lester."
  },
  {
-  "id": "2026-11-04-12",
+  "id": "2026-11-04-13",
   "date": "2026-11-04",
   "start": "16:30",
   "end": "18:00",
   "title": "Humanities in Action: To Secure These Rights",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -234,17 +279,19 @@ window.TR_EVENTS = [
    "Talk & Discussion"
   ],
   "url": "https://flyleafbooks.com/event/cph-11-04-2026",
-  "notes": ""
+  "notes": "",
+  "description": "Carolina Public Humanities discussion in the Foundational American Documents series."
  },
  {
-  "id": "2026-11-04-13",
+  "id": "2026-11-04-14",
   "date": "2026-11-04",
   "start": "18:00",
   "end": "19:30",
   "title": "Short Story Workshop with Maureen Sherbondy",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -252,17 +299,19 @@ window.TR_EVENTS = [
    "Writing"
   ],
   "url": "https://page158books.com/event/2026-11-04/special-event-short-story-workshop-maureen-sherbondy",
-  "notes": "$15"
+  "notes": "$15",
+  "description": "90-minute short story class; $15 at the door, RSVP via Eventbrite."
  },
  {
-  "id": "2026-11-05-14",
+  "id": "2026-11-05-15",
   "date": "2026-11-05",
   "start": "09:30",
   "end": "10:30",
-  "title": "Spanish Storytime for Young Children with ISLA",
+  "title": "Spanish Storytime for Young Children, with ISLA",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -270,17 +319,19 @@ window.TR_EVENTS = [
    "For Kids"
   ],
   "url": "https://flyleafbooks.com/event/2026-11-05/spanish-storytime-young-children-isla",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Spanish-language storytime, every other Thursday."
  },
  {
-  "id": "2026-11-05-15",
+  "id": "2026-11-05-16",
   "date": "2026-11-05",
   "start": "17:30",
   "end": "19:00",
-  "title": "Bryant Simon: For Customers Only",
+  "title": "Bryant Simon: For Customers Only, with Jacquelyn Dowd Hall",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -288,17 +339,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://flyleafbooks.com/event/simon-2026",
-  "notes": ""
+  "notes": "",
+  "description": "Author talk on For Customers Only: Public Bathrooms and the Making of American Equality."
  },
  {
-  "id": "2026-11-05-16",
+  "id": "2026-11-05-17",
   "date": "2026-11-05",
   "start": "19:00",
   "end": "21:00",
   "title": "Raleigh Poetry Slam",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -306,17 +359,19 @@ window.TR_EVENTS = [
    "Poetry"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-05/raleigh-poetry-slam",
-  "notes": "ticketed"
+  "notes": "ticketed",
+  "description": "Poetry slam; tickets via the store's Square link."
  },
  {
-  "id": "2026-11-06-17",
+  "id": "2026-11-06-18",
   "date": "2026-11-06",
   "start": "",
   "end": "",
-  "title": "Fall Readers' Club Sale (Nov 6-9)",
+  "title": "Fall Readers' Club Sale",
+  "endDate": "2026-11-09",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -324,25 +379,8 @@ window.TR_EVENTS = [
    "Sale & Fair"
   ],
   "url": "https://quailridgebooks.com/event/fallreadersclubsale26",
-  "notes": "all-day; members 20% off"
- },
- {
-  "id": "2026-11-06-18",
-  "date": "2026-11-06",
-  "start": "18:30",
-  "end": "19:30",
-  "title": "The Book Club at the End of the Universe",
-  "host": "Flyleaf Books",
-  "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
-  "city": "Chapel Hill",
-  "county": "Orange",
-  "space": "Bookstore",
-  "types": [
-   "Book Club"
-  ],
-  "url": "https://flyleafbooks.com/event/2026-11-06/bceu",
-  "notes": ""
+  "notes": "",
+  "description": "Nov 6–9, starting 10am. Readers' Club members get 20% off eligible books and merchandise in store."
  },
  {
   "id": "2026-11-06-19",
@@ -350,9 +388,10 @@ window.TR_EVENTS = [
   "start": "18:30",
   "end": "20:00",
   "title": "Friendship Love Poem Workshop",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -361,17 +400,39 @@ window.TR_EVENTS = [
    "Writing"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-06/friendship-love-poem-workshop",
-  "notes": "ticketed"
+  "notes": "ticketed",
+  "description": "Poetry writing workshop; tickets via Eventbrite."
  },
  {
-  "id": "2026-11-07-20",
+  "id": "2026-11-06-20",
+  "date": "2026-11-06",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "The Book Club at the End of the Universe",
+  "endDate": "",
+  "host": "Flyleaf Books",
+  "hostType": "Bookstore",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://flyleafbooks.com/event/2026-11-06/bceu",
+  "notes": "",
+  "description": "In-person sci-fi book club meeting; no RSVP needed."
+ },
+ {
+  "id": "2026-11-07-21",
   "date": "2026-11-07",
   "start": "10:00",
   "end": "14:00",
   "title": "Local Author Book Fair",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -380,14 +441,76 @@ window.TR_EVENTS = [
    "Sale & Fair"
   ],
   "url": "https://page158books.com/event/2026-11-07/local-author-book-fair",
-  "notes": ""
+  "notes": "",
+  "description": "Local authors outside in the parking lot and inside the store; RSVP via Eventbrite."
  },
  {
-  "id": "2026-11-08-21",
+  "id": "2026-11-07-22",
+  "date": "2026-11-07",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-07-23",
+  "date": "2026-11-07",
+  "start": "11:00",
+  "end": "11:30",
+  "title": "Storytime",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.page158books.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
+ },
+ {
+  "id": "2026-11-08-24",
+  "date": "2026-11-08",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-08-25",
   "date": "2026-11-08",
   "start": "14:00",
   "end": "15:00",
   "title": "Mack Paul: Miracle Road",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
   "location": "Wake Forest Historical Museum, 414 N Main St, Wake Forest",
@@ -398,17 +521,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://page158books.com/event/2026-11-08/author-event-mack-paul",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Author talk; RSVP via Eventbrite."
  },
  {
-  "id": "2026-11-08-22",
+  "id": "2026-11-08-26",
   "date": "2026-11-08",
   "start": "14:30",
   "end": "16:00",
   "title": "Second Sunday Poetry: Richard Chess and Melissa Crowe",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -417,17 +542,39 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://flyleafbooks.com/event/poetry-nov-2026",
-  "notes": ""
+  "notes": "",
+  "description": "Monthly poetry readings followed by an open mic."
  },
  {
-  "id": "2026-11-09-23",
+  "id": "2026-11-09-27",
+  "date": "2026-11-09",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-09-28",
   "date": "2026-11-09",
   "start": "11:00",
   "end": "12:00",
   "title": "Day Book Club: Mudbound",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -435,17 +582,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-09/day-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: Mudbound by Hilary Jordan."
  },
  {
-  "id": "2026-11-09-24",
+  "id": "2026-11-09-29",
   "date": "2026-11-09",
   "start": "18:00",
   "end": "19:00",
   "title": "Wake Forest Pride Queer Book Club: What Moves the Dead",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -453,17 +602,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-09/wake-forest-pride-queer-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: What Moves the Dead by T. Kingfisher."
  },
  {
-  "id": "2026-11-09-25",
+  "id": "2026-11-09-30",
   "date": "2026-11-09",
   "start": "18:30",
   "end": "19:30",
   "title": "No Shelf Control Book Club",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -471,17 +622,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://flyleafbooks.com/event/2026-11-09/no-shelf-control",
-  "notes": ""
+  "notes": "",
+  "description": "Book club discussing recent fiction releases; no RSVP needed."
  },
  {
-  "id": "2026-11-09-26",
+  "id": "2026-11-09-31",
   "date": "2026-11-09",
   "start": "18:30",
   "end": "19:30",
   "title": "Raleigh Brewing Smut Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "Raleigh Brewing Co, 3709 Neil St, Raleigh",
+  "location": "Raleigh Brewing Company, 3709 Neil St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Other Venue",
@@ -489,17 +642,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-09/raleigh-brewing-smut-book-club-offsite",
-  "notes": "end time assumed"
+  "notes": "offsite; end time assumed",
+  "description": "Offsite romance book club: plot twists and a little steam."
  },
  {
-  "id": "2026-11-09-27",
+  "id": "2026-11-09-32",
   "date": "2026-11-09",
   "start": "19:00",
   "end": "20:00",
   "title": "Not for Men Only Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -507,17 +662,39 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-09/not-men-only-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Open to any gender; picks generally appeal to male readers."
  },
  {
-  "id": "2026-11-10-28",
+  "id": "2026-11-10-33",
+  "date": "2026-11-10",
+  "start": "11:00",
+  "end": "11:30",
+  "title": "Storytime",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.page158books.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
+ },
+ {
+  "id": "2026-11-10-34",
   "date": "2026-11-10",
   "start": "14:30",
   "end": "15:30",
   "title": "OLLI Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -525,17 +702,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-10/olli-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Meets the second Tuesday."
  },
  {
-  "id": "2026-11-10-29",
+  "id": "2026-11-10-35",
   "date": "2026-11-10",
   "start": "17:00",
   "end": "19:00",
   "title": "Slam Club: A Raleigh Poet Meetup",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -543,17 +722,19 @@ window.TR_EVENTS = [
    "Poetry"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-10/slam-club-raleigh-poet-meetup",
-  "notes": ""
+  "notes": "end time assumed",
+  "description": "Poet meetup."
  },
  {
-  "id": "2026-11-10-30",
+  "id": "2026-11-10-36",
   "date": "2026-11-10",
   "start": "17:30",
   "end": "19:00",
-  "title": "Christopher Dunn: Stray Dog in the Milky Way",
+  "title": "Christopher Dunn: Stray Dog in the Milky Way, with David Menconi",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -561,17 +742,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://flyleafbooks.com/event/dunn-2026",
-  "notes": ""
+  "notes": "",
+  "description": "Author talk."
  },
  {
-  "id": "2026-11-10-31",
+  "id": "2026-11-10-37",
   "date": "2026-11-10",
   "start": "18:00",
   "end": "19:00",
-  "title": "Nina LaCour Book Signing",
+  "title": "Nina LaCour Book Signing: Meet Me in the Garden",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -579,17 +762,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-10/nina-lacour-book-signing",
-  "notes": ""
+  "notes": "",
+  "description": "Author book signing."
  },
  {
-  "id": "2026-11-10-32",
+  "id": "2026-11-10-38",
   "date": "2026-11-10",
   "start": "18:00",
   "end": "19:00",
   "title": "YA For Adults Book Club: Breath of the Dragon",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -597,17 +782,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-10/ya-adults-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: Breath of the Dragon by Shannon Lee and Fonda Lee."
  },
  {
-  "id": "2026-11-10-33",
+  "id": "2026-11-10-39",
   "date": "2026-11-10",
   "start": "18:30",
   "end": "19:30",
   "title": "Ellen Skrmetti: Cattywampus",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -615,17 +802,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://quailridgebooks.com/event/ellenskrmetti26",
-  "notes": "ticketed; end time assumed"
+  "notes": "ticketed; end time assumed",
+  "description": "Author talk and signing. Tickets include a copy of Cattywampus and a reserved seat."
  },
  {
-  "id": "2026-11-11-34",
+  "id": "2026-11-11-40",
   "date": "2026-11-11",
   "start": "16:30",
   "end": "18:00",
   "title": "Humanities in Action: Equal Rights Amendment",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -633,17 +822,19 @@ window.TR_EVENTS = [
    "Talk & Discussion"
   ],
   "url": "https://flyleafbooks.com/event/cph-11-11-2026",
-  "notes": ""
+  "notes": "",
+  "description": "Carolina Public Humanities discussion in the Foundational American Documents series."
  },
  {
-  "id": "2026-11-11-35",
+  "id": "2026-11-11-41",
   "date": "2026-11-11",
   "start": "18:30",
   "end": "19:30",
-  "title": "Becca Freeman: Back Where We Started",
+  "title": "Becca Freeman: Back Where We Started, with Kate Hash",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -651,17 +842,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://quailridgebooks.com/event/beccafreeman26",
-  "notes": "ticketed; end time assumed"
+  "notes": "ticketed; end time assumed",
+  "description": "Author talk and signing; tickets (Eventbrite) include the book."
  },
  {
-  "id": "2026-11-12-36",
+  "id": "2026-11-12-42",
   "date": "2026-11-12",
   "start": "17:30",
   "end": "19:00",
-  "title": "Brian Biswas: Floating on Air",
+  "title": "Brian Biswas: Floating on Air, with Landis Wade",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -669,17 +862,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://flyleafbooks.com/event/biswas-2026",
-  "notes": ""
+  "notes": "",
+  "description": "Author talk on a novel set in a fictional Mississippi town."
  },
  {
-  "id": "2026-11-12-37",
+  "id": "2026-11-12-43",
   "date": "2026-11-12",
   "start": "18:30",
   "end": "20:00",
   "title": "Barbara Kingsolver",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "Hunt Library, NC State, 1070 Partners Way, Raleigh",
+  "location": "Duke Energy Hall, James B. Hunt Jr. Library, NC State University, 1070 Partners Way, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Library",
@@ -687,17 +882,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://quailridgebooks.com/event/barbarakingsolver26",
-  "notes": "sold out; end time assumed"
+  "notes": "sold out; end time assumed",
+  "description": "Offsite author talk. Listed as SOLD OUT with a waitlist."
  },
  {
-  "id": "2026-11-13-38",
+  "id": "2026-11-13-44",
   "date": "2026-11-13",
   "start": "10:15",
   "end": "12:00",
   "title": "Wonderland Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -705,17 +902,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-13/wonderland-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "Open-to-public outreach of the NC Writers' Network; generally runs until noon."
  },
  {
-  "id": "2026-11-13-39",
+  "id": "2026-11-13-45",
   "date": "2026-11-13",
   "start": "17:00",
   "end": "19:00",
   "title": "Silent Book Club",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -723,17 +922,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-13/silent-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "Quiet reading meetup."
  },
  {
-  "id": "2026-11-13-40",
+  "id": "2026-11-13-46",
   "date": "2026-11-13",
   "start": "18:30",
   "end": "19:30",
   "title": "Genre Nonconforming Book Club",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -741,17 +942,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://flyleafbooks.com/event/2026-11-13/genre-nonconforming",
-  "notes": ""
+  "notes": "",
+  "description": "Book club for books by queer authors, any genre; no RSVP needed."
  },
  {
-  "id": "2026-11-13-41",
+  "id": "2026-11-13-47",
   "date": "2026-11-13",
   "start": "19:00",
   "end": "20:00",
   "title": "Queer Quails Qlub",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -759,17 +962,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-13/queer-quails-qlub",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Book club reading queer and trans fiction and nonfiction."
  },
  {
-  "id": "2026-11-14-42",
+  "id": "2026-11-14-48",
   "date": "2026-11-14",
   "start": "10:15",
   "end": "11:15",
   "title": "Saturday Morning Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -777,17 +982,59 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-14/saturday-morning-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "In-store book club at North Hills."
  },
  {
-  "id": "2026-11-14-43",
+  "id": "2026-11-14-49",
+  "date": "2026-11-14",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-14-50",
+  "date": "2026-11-14",
+  "start": "11:00",
+  "end": "11:30",
+  "title": "Storytime",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.page158books.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
+ },
+ {
+  "id": "2026-11-14-51",
   "date": "2026-11-14",
   "start": "17:00",
   "end": "19:00",
   "title": "Silent Book Club",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -795,17 +1042,39 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-14/silent-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "Quiet reading meetup."
  },
  {
-  "id": "2026-11-15-44",
+  "id": "2026-11-15-52",
+  "date": "2026-11-15",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-15-53",
   "date": "2026-11-15",
   "start": "14:00",
   "end": "15:30",
   "title": "Craig Johnson: Have Courage",
+  "endDate": "",
   "host": "McIntyre's Books",
   "hostType": "Bookstore",
-  "location": "Fearrington Barn, 500 Village Center, Pittsboro",
+  "location": "The Fearrington Barn, 500 Village Center, Fearrington Village, Pittsboro",
   "city": "Pittsboro",
   "county": "Chatham",
   "space": "Other Venue",
@@ -813,17 +1082,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://mcintyresbooks.com/event/2026-11-15/craig-johnson-have-courage",
-  "notes": "ticketed; end time assumed"
+  "notes": "ticketed; end time assumed",
+  "description": "Craig Johnson and actor A Martinez discuss Johnson's new Longmire short-story collection. Ticketed: one book purchase gets two tickets."
  },
  {
-  "id": "2026-11-15-45",
+  "id": "2026-11-15-54",
   "date": "2026-11-15",
   "start": "16:00",
   "end": "17:00",
   "title": "Literary Pursuits Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -831,17 +1102,39 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-15/literary-pursuits-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Discussion of a literary classic, third Sunday."
  },
  {
-  "id": "2026-11-16-46",
+  "id": "2026-11-16-55",
+  "date": "2026-11-16",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-16-56",
   "date": "2026-11-16",
   "start": "18:00",
   "end": "19:30",
   "title": "Silent Book Club Meeting",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -849,17 +1142,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://flyleafbooks.com/event/2026-11-16/silent-book-club-meeting",
-  "notes": ""
+  "notes": "",
+  "description": "Quiet reading meetup."
  },
  {
-  "id": "2026-11-16-47",
+  "id": "2026-11-16-57",
   "date": "2026-11-16",
   "start": "18:00",
   "end": "19:00",
   "title": "Science Fiction Book Club: The Mercy of Gods",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -867,17 +1162,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-16/science-fiction-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: The Mercy of Gods by James S.A. Corey."
  },
  {
-  "id": "2026-11-16-48",
+  "id": "2026-11-16-58",
   "date": "2026-11-16",
   "start": "18:00",
   "end": "19:00",
-  "title": "Karen Garloch: Stray Voltage",
+  "title": "Karen Garloch: Stray Voltage, with Heather Bell Adams",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -885,53 +1182,19 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://page158books.com/event/2026-11-16/author-event-karen-garloch",
-  "notes": ""
+  "notes": "",
+  "description": "Debut novel celebration; RSVP via Eventbrite."
  },
  {
-  "id": "2026-11-16-49",
-  "date": "2026-11-16",
-  "start": "19:00",
-  "end": "20:00",
-  "title": "Well-Read Black Girl Book Club",
-  "host": "Quail Ridge Books",
-  "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
-  "city": "Raleigh",
-  "county": "Wake",
-  "space": "Bookstore",
-  "types": [
-   "Book Club"
-  ],
-  "url": "https://quailridgebooks.com/event/2026-11-16/well-read-black-girl-book-club",
-  "notes": "end time assumed"
- },
- {
-  "id": "2026-11-16-50",
-  "date": "2026-11-16",
-  "start": "19:00",
-  "end": "20:00",
-  "title": "Contemporary Fiction Book Club (offsite)",
-  "host": "Quail Ridge Books",
-  "hostType": "Bookstore",
-  "location": "Offsite (email store)",
-  "city": "Raleigh",
-  "county": "Wake",
-  "space": "Other Venue",
-  "types": [
-   "Book Club"
-  ],
-  "url": "https://quailridgebooks.com/event/2026-11-16/contemporary-fiction-book-club-offsite",
-  "notes": "end time assumed"
- },
- {
-  "id": "2026-11-16-51",
+  "id": "2026-11-16-59",
   "date": "2026-11-16",
   "start": "19:00",
   "end": "20:00",
   "title": "Understanding the Middle East Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -939,17 +1202,79 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-16/understanding-middle-east-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Meets the third Monday."
  },
  {
-  "id": "2026-11-17-52",
+  "id": "2026-11-16-60",
+  "date": "2026-11-16",
+  "start": "19:00",
+  "end": "20:00",
+  "title": "Contemporary Fiction Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (email Quail Ridge Books for location)",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-11-16/contemporary-fiction-book-club-offsite",
+  "notes": "offsite; end time assumed",
+  "description": "Meets offsite; the listing says to email the store for details."
+ },
+ {
+  "id": "2026-11-16-61",
+  "date": "2026-11-16",
+  "start": "19:00",
+  "end": "20:00",
+  "title": "Well-Read Black Girl Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-11-16/well-read-black-girl-book-club",
+  "notes": "end time assumed",
+  "description": "Book club meeting."
+ },
+ {
+  "id": "2026-11-17-62",
+  "date": "2026-11-17",
+  "start": "11:00",
+  "end": "11:30",
+  "title": "Storytime",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.page158books.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
+ },
+ {
+  "id": "2026-11-17-63",
   "date": "2026-11-17",
   "start": "17:00",
   "end": "19:00",
   "title": "Writer's Club",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -957,17 +1282,19 @@ window.TR_EVENTS = [
    "Writing"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-17/writers-club",
-  "notes": ""
+  "notes": "",
+  "description": "Writers' meetup."
  },
  {
-  "id": "2026-11-17-53",
+  "id": "2026-11-17-64",
   "date": "2026-11-17",
   "start": "18:00",
   "end": "19:30",
   "title": "Read the World Book Club: Ireland",
-  "host": "Regulator Bookshop",
+  "endDate": "",
+  "host": "The Regulator Bookshop",
   "hostType": "Bookstore",
-  "location": "720 9th St, Durham",
+  "location": "The Regulator Bookshop, 720 9th St, Durham",
   "city": "Durham",
   "county": "Durham",
   "space": "Bookstore",
@@ -975,17 +1302,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://www.regulatorbookshop.com/event/2026-11-17/read-world-ireland",
-  "notes": "venue not stated"
+  "notes": "end time assumed",
+  "description": "Read any book set in Ireland or by an Irish author."
  },
  {
-  "id": "2026-11-18-54",
+  "id": "2026-11-18-65",
   "date": "2026-11-18",
   "start": "11:00",
   "end": "12:00",
   "title": "Historical Fiction Book Club: The Tiffany Girls",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -993,17 +1322,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-18/historical-fiction-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: The Tiffany Girls by Shelley Noble."
  },
  {
-  "id": "2026-11-18-55",
+  "id": "2026-11-18-66",
   "date": "2026-11-18",
   "start": "18:30",
   "end": "19:30",
   "title": "WTF Did I Just Read? Book Club: The Coffin of Honey",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -1011,17 +1342,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-18/wtf-did-i-just-read-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: The Coffin of Honey by Geoffrey D. Morrison."
  },
  {
-  "id": "2026-11-19-56",
+  "id": "2026-11-19-67",
   "date": "2026-11-19",
   "start": "09:30",
   "end": "10:30",
-  "title": "Spanish Storytime for Young Children with ISLA",
+  "title": "Spanish Storytime for Young Children, with ISLA",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -1029,17 +1362,19 @@ window.TR_EVENTS = [
    "For Kids"
   ],
   "url": "https://flyleafbooks.com/event/2026-11-19/spanish-storytime-young-children-isla",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Spanish-language storytime."
  },
  {
-  "id": "2026-11-19-57",
+  "id": "2026-11-19-68",
   "date": "2026-11-19",
   "start": "16:00",
   "end": "17:00",
   "title": "Kids Book Club: Escape From Mr. Lemoncello's Library",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -1048,17 +1383,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-19/kids-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "Children's book club."
  },
  {
-  "id": "2026-11-19-58",
+  "id": "2026-11-19-69",
   "date": "2026-11-19",
   "start": "17:30",
   "end": "19:00",
-  "title": "Blood and Politics: Burghart / Segrest / Smith",
+  "title": "Blood and Politics: Devin Burghart, Mab Segrest and Carol Smith",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -1067,17 +1404,19 @@ window.TR_EVENTS = [
    "Talk & Discussion"
   ],
   "url": "https://flyleafbooks.com/event/blood-and-politics-2026",
-  "notes": ""
+  "notes": "",
+  "description": "Talk on the history of white nationalism in America, with Ben Wilkins. Signing at 5:30pm, talk at 6pm."
  },
  {
-  "id": "2026-11-19-59",
+  "id": "2026-11-19-70",
   "date": "2026-11-19",
   "start": "18:00",
   "end": "19:00",
   "title": "Classics Book Club: The Woman in White",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -1085,35 +1424,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-19/classics-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: The Woman in White by Wilkie Collins."
  },
  {
-  "id": "2026-11-19-60",
-  "date": "2026-11-19",
-  "start": "19:00",
-  "end": "20:00",
-  "title": "Forever Young Book Club",
-  "host": "Quail Ridge Books",
-  "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
-  "city": "Raleigh",
-  "county": "Wake",
-  "space": "Bookstore",
-  "types": [
-   "Book Club"
-  ],
-  "url": "https://quailridgebooks.com/event/2026-11-19/forever-young-book-club",
-  "notes": "end time assumed"
- },
- {
-  "id": "2026-11-19-61",
+  "id": "2026-11-19-71",
   "date": "2026-11-19",
   "start": "19:00",
   "end": "20:00",
   "title": "Sci-Fi/Fantasy Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1121,14 +1444,36 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-19/sci-fifantasy-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Book club meeting."
  },
  {
-  "id": "2026-11-19-62",
+  "id": "2026-11-19-72",
+  "date": "2026-11-19",
+  "start": "19:00",
+  "end": "20:00",
+  "title": "Forever Young Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-11-19/forever-young-book-club",
+  "notes": "end time assumed",
+  "description": "Young-adult and teen literature for adult readers."
+ },
+ {
+  "id": "2026-11-19-73",
   "date": "2026-11-19",
   "start": "19:00",
   "end": "21:00",
   "title": "Talk Smutty to Me x Bitter Social",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
   "location": "Bitter Social, 104 S Wilmington St, Raleigh",
@@ -1139,33 +1484,17 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-19/talk-smutty-me-x-bitter-social",
-  "notes": "ticketed"
+  "notes": "ticketed",
+  "description": "Romance-reader event hosted by Blackbird at Bitter Social; tickets via bittersocialraleigh.com."
  },
  {
-  "id": "2026-11-20-63",
-  "date": "2026-11-20",
-  "start": "18:30",
-  "end": "19:30",
-  "title": "The New Romantics Book Club",
-  "host": "Flyleaf Books",
-  "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
-  "city": "Chapel Hill",
-  "county": "Orange",
-  "space": "Bookstore",
-  "types": [
-   "Book Club"
-  ],
-  "url": "https://flyleafbooks.com/event/2026-11-20/new-romantics",
-  "notes": ""
- },
- {
-  "id": "2026-11-20-64",
+  "id": "2026-11-20-74",
   "date": "2026-11-20",
   "start": "18:30",
   "end": "20:30",
-  "title": "Mahalia Jackson: A Social Justice Conversation",
-  "host": "Regulator Bookshop",
+  "title": "Mahalia Jackson, Moving On Up a Little Higher: A Social Justice Conversation",
+  "endDate": "",
+  "host": "The Regulator Bookshop",
   "hostType": "Bookstore",
   "location": "Durham County Main Library, 300 N Roxboro St, Durham",
   "city": "Durham",
@@ -1176,17 +1505,39 @@ window.TR_EVENTS = [
    "Talk & Discussion"
   ],
   "url": "https://www.regulatorbookshop.com/event/2026-11-20/mahalia-jackson-moving-little-higher-social-justice-conversation",
-  "notes": "RSVP via library"
+  "notes": "",
+  "description": "Community conversation on Mahalia Jackson's life and social-justice legacy, drawing on a new biography. RSVP: https://durhamcountylibrary.libcal.com/event/17851394"
  },
  {
-  "id": "2026-11-21-65",
+  "id": "2026-11-20-75",
+  "date": "2026-11-20",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "The New Romantics Book Club",
+  "endDate": "",
+  "host": "Flyleaf Books",
+  "hostType": "Bookstore",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://flyleafbooks.com/event/2026-11-20/new-romantics",
+  "notes": "",
+  "description": "Romance book club; no RSVP needed."
+ },
+ {
+  "id": "2026-11-21-76",
   "date": "2026-11-21",
   "start": "10:15",
   "end": "11:15",
   "title": "Saturday Morning Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1194,17 +1545,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-21/saturday-morning-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "In-store book club at North Hills."
  },
  {
-  "id": "2026-11-21-66",
+  "id": "2026-11-21-77",
   "date": "2026-11-21",
   "start": "10:30",
   "end": "11:30",
   "title": "Holiday Kickoff with Matt Tavares: Dasher",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1214,17 +1567,39 @@ window.TR_EVENTS = [
    "Special Event"
   ],
   "url": "https://quailridgebooks.com/event/matttavares26",
-  "notes": "registration; end time assumed"
+  "notes": "registration; end time assumed",
+  "description": "Storytime reading of Dasher followed by a book signing; tickets/registration required."
  },
  {
-  "id": "2026-11-21-67",
+  "id": "2026-11-21-78",
+  "date": "2026-11-21",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-21-79",
   "date": "2026-11-21",
   "start": "11:00",
   "end": "13:00",
   "title": "BLACKOUT Author Showcase",
+  "endDate": "",
   "host": "Liberation Station Bookstore",
   "hostType": "Bookstore",
-  "location": "430 Hill St, Raleigh",
+  "location": "Liberation Station Bookstore, 430 Hill St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1232,17 +1607,59 @@ window.TR_EVENTS = [
    "Author Event"
   ],
   "url": "https://liberationstationbookstore.com/event/blackout-author-showcase-4th",
-  "notes": ""
+  "notes": "",
+  "description": "Recurring in-store showcase for independent authors."
  },
  {
-  "id": "2026-11-22-68",
+  "id": "2026-11-21-80",
+  "date": "2026-11-21",
+  "start": "11:00",
+  "end": "11:30",
+  "title": "Storytime",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.page158books.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
+ },
+ {
+  "id": "2026-11-22-81",
+  "date": "2026-11-22",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-22-82",
   "date": "2026-11-22",
   "start": "14:00",
   "end": "15:30",
   "title": "Writers Workshop with Heather Frese",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -1250,17 +1667,39 @@ window.TR_EVENTS = [
    "Writing"
   ],
   "url": "https://page158books.com/event/2026-11-22/special-event-writers-workshop-special-guest-heather-frese",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Writing workshop with Suzanne Beaumont and guest teacher Heather Frese."
  },
  {
-  "id": "2026-11-23-69",
+  "id": "2026-11-23-83",
+  "date": "2026-11-23",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Under the Tree Storytime",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.quailridgebooks.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's booksellers read picture books on Saturday, Sunday and Monday mornings (listed Nov 1 through Nov 23)."
+ },
+ {
+  "id": "2026-11-23-84",
   "date": "2026-11-23",
   "start": "11:00",
   "end": "12:00",
   "title": "Mystery Book Club: Too Old for This",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -1268,17 +1707,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-23/mystery-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: Too Old for This by Samantha Downing."
  },
  {
-  "id": "2026-11-23-70",
+  "id": "2026-11-23-85",
   "date": "2026-11-23",
   "start": "18:00",
   "end": "19:00",
   "title": "Romance Book Club: Phoebe Berman's Gonna Lose It",
+  "endDate": "",
   "host": "Page 158 Books",
   "hostType": "Bookstore",
-  "location": "415 Brooks St Suite B, Wake Forest",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
   "city": "Wake Forest",
   "county": "Wake",
   "space": "Bookstore",
@@ -1286,17 +1727,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://page158books.com/event/2026-11-23/romance-book-club",
-  "notes": ""
+  "notes": "",
+  "description": "This month: Phoebe Berman's Gonna Lose It by Brooke Averick."
  },
  {
-  "id": "2026-11-23-71",
+  "id": "2026-11-23-86",
   "date": "2026-11-23",
   "start": "19:00",
   "end": "20:00",
   "title": "Raleigh Romance Readers Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1304,17 +1747,39 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-23/raleigh-romance-readers-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Romance book club at North Hills."
  },
  {
-  "id": "2026-11-24-72",
+  "id": "2026-11-24-87",
+  "date": "2026-11-24",
+  "start": "11:00",
+  "end": "11:30",
+  "title": "Storytime",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.page158books.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
+ },
+ {
+  "id": "2026-11-24-88",
   "date": "2026-11-24",
   "start": "17:00",
   "end": "19:00",
   "title": "Writer's Club",
+  "endDate": "",
   "host": "Blackbird Books & Coffee",
   "hostType": "Bookstore",
-  "location": "323 Blake St, Raleigh",
+  "location": "Blackbird Books & Coffee, 323 Blake St, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1322,17 +1787,19 @@ window.TR_EVENTS = [
    "Writing"
   ],
   "url": "https://www.blackbirdbooksandcoffee.com/event/2026-11-24/writers-club",
-  "notes": ""
+  "notes": "",
+  "description": "Writers' meetup."
  },
  {
-  "id": "2026-11-28-73",
+  "id": "2026-11-28-89",
   "date": "2026-11-28",
   "start": "10:30",
   "end": "11:30",
   "title": "Linda Ashman Storytime: Home Builder Hazel",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -1341,17 +1808,39 @@ window.TR_EVENTS = [
    "For Kids"
   ],
   "url": "https://flyleafbooks.com/event/ashman-2026",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Storytime with children's author Linda Ashman for Small Business Saturday."
  },
  {
-  "id": "2026-11-28-74",
+  "id": "2026-11-28-90",
+  "date": "2026-11-28",
+  "start": "11:00",
+  "end": "11:30",
+  "title": "Storytime",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks St Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://www.page158books.com/events/2026/11",
+  "notes": "end time assumed",
+  "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
+ },
+ {
+  "id": "2026-11-28-91",
   "date": "2026-11-28",
   "start": "16:00",
   "end": "17:30",
-  "title": "An A-Z Jane Austen Tea",
+  "title": "An A-Z Jane Austen Tea with Inger Sigrun Bredkjær Brodey",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -1359,17 +1848,19 @@ window.TR_EVENTS = [
    "Special Event"
   ],
   "url": "https://flyleafbooks.com/event/brodey-2026",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Tea party celebrating an illustrated guide to Jane Austen's fiction and life."
  },
  {
-  "id": "2026-11-28-75",
+  "id": "2026-11-28-92",
   "date": "2026-11-28",
   "start": "17:00",
   "end": "18:00",
   "title": "Quails from the Crypt Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1377,17 +1868,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-28/quails-crypt-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Dark and sinister literature across genres."
  },
  {
-  "id": "2026-11-30-76",
+  "id": "2026-11-30-93",
   "date": "2026-11-30",
   "start": "18:30",
   "end": "19:30",
   "title": "Nightmare Society Book Club",
+  "endDate": "",
   "host": "Flyleaf Books",
   "hostType": "Bookstore",
-  "location": "752 MLK Jr Blvd, Chapel Hill",
+  "location": "Flyleaf Books, 752 Martin Luther King Jr Blvd, Chapel Hill",
   "city": "Chapel Hill",
   "county": "Orange",
   "space": "Bookstore",
@@ -1395,17 +1888,19 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://flyleafbooks.com/event/2026-11-30/nightmare-society",
-  "notes": ""
+  "notes": "",
+  "description": "Horror book club, last Monday of the month."
  },
  {
-  "id": "2026-11-30-77",
+  "id": "2026-11-30-94",
   "date": "2026-11-30",
   "start": "19:00",
   "end": "20:00",
   "title": "Mystery Book Club",
+  "endDate": "",
   "host": "Quail Ridge Books",
   "hostType": "Bookstore",
-  "location": "4209-100 Lassiter Mill Rd, Raleigh",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Road, Raleigh",
   "city": "Raleigh",
   "county": "Wake",
   "space": "Bookstore",
@@ -1413,6 +1908,7 @@ window.TR_EVENTS = [
    "Book Club"
   ],
   "url": "https://quailridgebooks.com/event/2026-11-30/mystery-book-club",
-  "notes": "end time assumed"
+  "notes": "end time assumed",
+  "description": "Book club meeting."
  }
 ];

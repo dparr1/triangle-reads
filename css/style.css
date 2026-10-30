@@ -65,6 +65,10 @@ a { color: var(--accent); }
 .brand { font-family: var(--serif); font-weight: 700; font-size: clamp(2rem, 6vw, 3rem); margin: 0; letter-spacing: -.01em; }
 .brand-mark { color: var(--accent); font-size: .7em; vertical-align: .12em; }
 .tagline { margin: 6px 0 0; color: var(--muted); max-width: 60ch; }
+.cal-links { margin: 14px 0 0; display: flex; gap: 10px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: .9rem; text-decoration: none; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); background: var(--surface); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); }
+.btn:hover { filter: brightness(1.08); }
 
 /* Controls */
 .controls { margin: 24px 0 8px; display: grid; gap: 14px; }
@@ -119,6 +123,7 @@ select { font: inherit; color: var(--text); background: var(--surface); border: 
 .event h3 a:hover { color: var(--accent); text-decoration: underline; }
 .event .meta { margin: 2px 0 0; color: var(--muted); font-size: .9rem; }
 .event .meta strong { color: var(--text); font-weight: 500; }
+.event .desc { margin: 6px 0 0; font-size: .9rem; max-width: 70ch; }
 .event .tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; align-items: center; }
 .tag { --c: var(--t-special); font-size: .75rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; color: var(--c); background: color-mix(in srgb, var(--c) 12%, transparent); }
 .tag.space { color: var(--muted); background: var(--surface-2); }

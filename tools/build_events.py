@@ -4,8 +4,12 @@ Usage (from the site folder):
     python tools/build_events.py path/to/events.csv [more.csv ...]
 
 CSV columns: date,start,end,title,host,location,url,notes
+Optional columns: end_date (last day of a multi-day event) and description.
 Optional extra columns: type (semicolon-separated), space, city
 override the automatic guesses.
+
+To pull events from the Triangle Reads Google Calendar, run
+tools/import_gcal.py first to turn the calendar export into a CSV.
 
 Venue and town info comes from triangle_libraries_bookstores.csv and
 triangle_municipalities.csv in the same data/ folder as this script's parent.
@@ -98,8 +102,10 @@ def guess_space(location, venue):
         return "Library"
     if venue is None:
         return "Other Venue"
-    # At the host's own address (location starts with a street number)?
-    if re.match(r"^\d", location) or venue["category"] == "Library":
+    # At the host's own address: the location starts with a street number
+    # or with the venue's own name.
+    name = re.sub(r"^the\s+|\s*\(.*\)$", "", venue["name"].lower())
+    if re.match(r"^\d", location) or re.sub(r"^the\s+", "", loc).startswith(name) or venue["category"] == "Library":
         return venue["category"]
     return "Other Venue"
 
@@ -119,7 +125,8 @@ def main(paths):
                     "start": r["start"],
                     "end": r["end"],
                     "title": r["title"].strip(),
-                    "host": r["host"].strip(),
+                    "endDate": (r.get("end_date") or "").strip(),
+                    "host": venue["name"] if venue else r["host"].strip(),
                     "hostType": venue["category"] if venue else "",
                     "location": r["location"].strip(),
                     "city": city,
@@ -128,6 +135,7 @@ def main(paths):
                     "types": types,
                     "url": r["url"].strip(),
                     "notes": r["notes"].strip(),
+                    "description": (r.get("description") or "").strip(),
                 })
     events.sort(key=lambda e: (e["date"], e["start"]))
     out = DATA / "events.js"
