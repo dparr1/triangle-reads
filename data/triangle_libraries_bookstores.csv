@@ -1,35 +1,35 @@
-category,kind,name,system_or_owner,town,county,address,website,notes
-Library,Public library,Chatham Community Library,Chatham County Public Libraries,Pittsboro,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours,
-Library,Public library,Wren Memorial Library,Chatham County Public Libraries,Siler City,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours,
-Library,Public library,Goldston Public Library,Chatham County Public Libraries,Goldston,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours/goldston-public-library,
-Bookstore,Independent bookstore,McIntyre's Books,,Pittsboro,Chatham,"220 Market St, Pittsboro, NC 27312 (Fearrington Village)",https://mcintyresbooks.com/events/calendar,New; author events
-Library,Public library,Durham County Libraries,Durham County Library,Durham,Durham,"300 N. Roxboro St., Durham, NC 27701",https://durhamcountylibrary.libcal.com/calendar?cid=14288,
-Library,University library,Duke University Libraries,Duke University,Durham,Durham,,https://duke.libcal.com/calendar/events?cid=3819&t=d&d=0000-00-00&cal=3819&inc=0,
-Library,University library,James E. Shepard Memorial Library,NC Central University,Durham,Durham,,https://library.nccu.edu/,URL not verified (site blocks automated checks)
-Bookstore,Independent bookstore,The Regulator Bookshop,,Durham,Durham,"720 9th St, Durham, NC 27705",https://www.regulatorbookshop.com/,New; children's
-Bookstore,Independent bookstore,Letters Bookshop,,Durham,Durham,"116 W Main St, Durham, NC 27701",https://lettersbookshop.com/,New and used
-Bookstore,Independent bookstore,Rofhiwa Book Cafe,,Durham,Durham,"406 S Driver St, Durham, NC 27703",https://rofhiwabooks.com/,Black and African diaspora authors; cafe
-Bookstore,Independent bookstore,Wentworth & Leggett Books,,Durham,Durham,"905 W Main St #20D, Durham, NC",https://wentworthleggettbooks.com/,New and used; Brightleaf Square
-Bookstore,Independent bookstore,Golden Fig Books (Durham),,Durham,Durham,"2706 Durham-Chapel Hill Blvd, Durham, NC",https://www.goldenfigbooks.com/,Used and new; children's
-Library,Public library,Chapel Hill Public Library,Town of Chapel Hill,Chapel Hill,Orange,,https://chapelhillpubliclibrary.org/,
-Library,Public library,Orange County Main Library,Orange County Public Library,Hillsborough,Orange,"137 W Margaret Lane, Hillsborough, NC 27278",https://orangecountync.gov/m/directory/department?did=90,
-Library,Public library,Carrboro Cybrary,Orange County Public Library,Carrboro,Orange,"100 N Greensboro Street, Carrboro, NC 27510",https://orangecountync.gov/m/directory/department?did=92,
-Library,University library,"UNC-Chapel Hill Libraries (Davis, Wilson)",UNC-Chapel Hill,Chapel Hill,Orange,,https://calendar.lib.unc.edu/calendar/unc-libraries?cid=2998&t=g&d=0000-00-00&cal=2998&inc=0,
-Bookstore,Independent bookstore,Golden Fig Books (Carrboro),,Carrboro,Orange,"200 N Greensboro St, Carrboro, NC (Carr Mill Mall)",https://www.goldenfigbooks.com/,Used and new; children's
-Bookstore,Independent bookstore,Flyleaf Books,,Chapel Hill,Orange,"752 Martin Luther King Jr Blvd, Chapel Hill, NC 27514",https://flyleafbooks.com/,New and used; author events
-Bookstore,Independent bookstore,Epilogue Books Chocolate Brews,,Chapel Hill,Orange,"109 E Franklin St Suite 100, Chapel Hill, NC 27514",https://epiloguebookschapelhill.com/,New; cafe; Spanish-language titles
-Bookstore,Independent bookstore,Purple Crow Books,,Hillsborough,Orange,,http://purplecrowbooks.com/,Local authors; children's
-Library,Public library,Wake County Libraries,Wake County Public Libraries,,Wake,,https://www.wake.gov/events?title=&field_department_target_id=25&field_category_id_target_id=All&location=All&field_end_date_value=&field_start_date_value=,
-Library,State library,State Library of North Carolina,NC Dept. of Natural and Cultural Resources,Raleigh,Wake,,https://library.nc.gov/,
-Library,University library,"NC State University Libraries (D.H. Hill, Hunt)",NC State University,Raleigh,Wake,,https://www.lib.ncsu.edu/,
-Bookstore,Independent bookstore,Quail Ridge Books,,Raleigh,Wake,"4209 Lassiter Mill Rd Suite 100, Raleigh, NC 27609",https://www.quailridgebooks.com/,New; children's; author events
-Bookstore,Independent bookstore,So & So Books,,Raleigh,Wake,"719 N Person St, Raleigh, NC 27604",https://www.soandsobooks.com/,New; independent presses; poetry and literary events
-Bookstore,Independent bookstore,Blackbird Books & Coffee,,Raleigh,Wake,"323 Blake St, Raleigh, NC 27601",https://www.blackbirdbooksandcoffee.com/,"New; cafe; queer, Black and Indigenous authors"
-Bookstore,Independent bookstore,Bright Side Books & Wine,,Raleigh,Wake,"600 W Cabarrus St #107, Raleigh, NC",https://brightsidebooksandwine.com/,New; romance; wine bar
-Bookstore,Independent bookstore,Liberation Station Bookstore,,Raleigh,Wake,"430 Hill St, Raleigh, NC 27610",https://liberationstationbookstore.com/,Children's; Black literature; sources disagree on the address
-Bookstore,Independent bookstore,Dog-Eared Book Company,,Raleigh,Wake,"4011 Atlantic Ave, Raleigh, NC",https://dogearedbookco.com/,Used; URL not verified
-Bookstore,Independent bookstore,The Readers' Corner,,Raleigh,Wake,"3201 Hillsborough St, Raleigh, NC",https://www.hillsboroughstreet.org/go/readers-corner,"Used; comics, vinyl"
-Bookstore,Independent bookstore,Nice Price Books & Records,,Raleigh,Wake,"3106 Hillsborough St, Raleigh, NC",https://nicepricebooksandrecords.com/,Used; mostly records; URL not verified
-Bookstore,Independent bookstore,The Newsagents,,Raleigh,Wake,"228 Fayetteville St, Raleigh, NC",https://thenewsagentsshop.com/,"Magazines, used books, comics; URL not verified"
-Bookstore,Independent bookstore,Mr. Mike's Used Books,,Cary,Wake,"6440 Tryon Road, Cary, NC",https://mrmikesusedbooks.com/,Used; big children's section
-Bookstore,Independent bookstore,Page 158 Books,,Wake Forest,Wake,"415 Brooks St Suite B, Wake Forest, NC 27587",https://www.page158books.com/,New; children's; story times
+category,kind,name,system_or_owner,town,county,address,website,notes,lat,lon
+Library,Public library,Chatham Community Library,Chatham County Public Libraries,Pittsboro,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours,,35.72421,-79.18734
+Library,Public library,Wren Memorial Library,Chatham County Public Libraries,Siler City,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours,,35.72735,-79.46467
+Library,Public library,Goldston Public Library,Chatham County Public Libraries,Goldston,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours/goldston-public-library,,35.59579,-79.32832
+Bookstore,Independent bookstore,McIntyre's Books,,Pittsboro,Chatham,"220 Market St, Pittsboro, NC 27312 (Fearrington Village)",https://mcintyresbooks.com/events/calendar,New; author events,35.80111,-79.09143
+Library,Public library,Durham County Libraries,Durham County Library,Durham,Durham,"300 N. Roxboro St., Durham, NC 27701",https://durhamcountylibrary.libcal.com/calendar?cid=14288,,35.99499,-78.89725
+Library,University library,Duke University Libraries,Duke University,Durham,Durham,,https://duke.libcal.com/calendar/events?cid=3819&t=d&d=0000-00-00&cal=3819&inc=0,,36.00047,-78.93774
+Library,University library,James E. Shepard Memorial Library,NC Central University,Durham,Durham,,https://library.nccu.edu/,URL not verified (site blocks automated checks),35.97634,-78.9009
+Bookstore,Independent bookstore,The Regulator Bookshop,,Durham,Durham,"720 9th St, Durham, NC 27705",https://www.regulatorbookshop.com/,New; children's,36.00843,-78.92206
+Bookstore,Independent bookstore,Letters Bookshop,,Durham,Durham,"116 W Main St, Durham, NC 27701",https://lettersbookshop.com/,New and used,35.99521,-78.90085
+Bookstore,Independent bookstore,Rofhiwa Book Cafe,,Durham,Durham,"406 S Driver St, Durham, NC 27703",https://rofhiwabooks.com/,Black and African diaspora authors; cafe,35.98193,-78.87799
+Bookstore,Independent bookstore,Wentworth & Leggett Books,,Durham,Durham,"905 W Main St #20D, Durham, NC",https://wentworthleggettbooks.com/,New and used; Brightleaf Square,36.00004,-78.90939
+Bookstore,Independent bookstore,Golden Fig Books (Durham),,Durham,Durham,"2706 Durham-Chapel Hill Blvd, Durham, NC",https://www.goldenfigbooks.com/,Used and new; children's,35.97404,-78.93208
+Library,Public library,Chapel Hill Public Library,Town of Chapel Hill,Chapel Hill,Orange,,https://chapelhillpubliclibrary.org/,,35.93079,-79.0363
+Library,Public library,Orange County Main Library,Orange County Public Library,Hillsborough,Orange,"137 W Margaret Lane, Hillsborough, NC 27278",https://orangecountync.gov/m/directory/department?did=90,,36.07444,-79.10022
+Library,Public library,Carrboro Cybrary,Orange County Public Library,Carrboro,Orange,"100 N Greensboro Street, Carrboro, NC 27510",https://orangecountync.gov/m/directory/department?did=92,,35.91036,-79.0722
+Library,University library,"UNC-Chapel Hill Libraries (Davis, Wilson)",UNC-Chapel Hill,Chapel Hill,Orange,,https://calendar.lib.unc.edu/calendar/unc-libraries?cid=2998&t=g&d=0000-00-00&cal=2998&inc=0,,35.91304,-79.04787
+Bookstore,Independent bookstore,Golden Fig Books (Carrboro),,Carrboro,Orange,"200 N Greensboro St, Carrboro, NC (Carr Mill Mall)",https://www.goldenfigbooks.com/,Used and new; children's,35.91119,-79.0722
+Bookstore,Independent bookstore,Flyleaf Books,,Chapel Hill,Orange,"752 Martin Luther King Jr Blvd, Chapel Hill, NC 27514",https://flyleafbooks.com/,New and used; author events,35.92382,-79.05458
+Bookstore,Independent bookstore,Epilogue Books Chocolate Brews,,Chapel Hill,Orange,"109 E Franklin St Suite 100, Chapel Hill, NC 27514",https://epiloguebookschapelhill.com/,New; cafe; Spanish-language titles,35.91332,-79.05549
+Bookstore,Independent bookstore,Purple Crow Books,,Hillsborough,Orange,,http://purplecrowbooks.com/,Local authors; children's,36.07531,-79.09969
+Library,Public library,Wake County Libraries,Wake County Public Libraries,,Wake,,https://www.wake.gov/events?title=&field_department_target_id=25&field_category_id_target_id=All&location=All&field_end_date_value=&field_start_date_value=,,35.76997,-78.56857
+Library,State library,State Library of North Carolina,NC Dept. of Natural and Cultural Resources,Raleigh,Wake,,https://library.nc.gov/,,35.78257,-78.63785
+Library,University library,"NC State University Libraries (D.H. Hill, Hunt)",NC State University,Raleigh,Wake,,https://www.lib.ncsu.edu/,,35.7872,-78.66962
+Bookstore,Independent bookstore,Quail Ridge Books,,Raleigh,Wake,"4209 Lassiter Mill Rd Suite 100, Raleigh, NC 27609",https://www.quailridgebooks.com/,New; children's; author events,35.83854,-78.64432
+Bookstore,Independent bookstore,So & So Books,,Raleigh,Wake,"719 N Person St, Raleigh, NC 27604",https://www.soandsobooks.com/,New; independent presses; poetry and literary events,35.7892,-78.63441
+Bookstore,Independent bookstore,Blackbird Books & Coffee,,Raleigh,Wake,"323 Blake St, Raleigh, NC 27601",https://www.blackbirdbooksandcoffee.com/,"New; cafe; queer, Black and Indigenous authors",35.77613,-78.63573
+Bookstore,Independent bookstore,Bright Side Books & Wine,,Raleigh,Wake,"600 W Cabarrus St #107, Raleigh, NC",https://brightsidebooksandwine.com/,New; romance; wine bar,35.7742,-78.6487
+Bookstore,Independent bookstore,Liberation Station Bookstore,,Raleigh,Wake,"430 Hill St, Raleigh, NC 27610",https://liberationstationbookstore.com/,Children's; Black literature; sources disagree on the address,35.78522,-78.61728
+Bookstore,Independent bookstore,Dog-Eared Book Company,,Raleigh,Wake,"4011 Atlantic Ave, Raleigh, NC",https://dogearedbookco.com/,Used; URL not verified,35.83702,-78.60187
+Bookstore,Independent bookstore,The Readers' Corner,,Raleigh,Wake,"3201 Hillsborough St, Raleigh, NC",https://www.hillsboroughstreet.org/go/readers-corner,"Used; comics, vinyl",35.7893,-78.6795
+Bookstore,Independent bookstore,Nice Price Books & Records,,Raleigh,Wake,"3106 Hillsborough St, Raleigh, NC",https://nicepricebooksandrecords.com/,Used; mostly records; URL not verified,35.78998,-78.67778
+Bookstore,Independent bookstore,The Newsagents,,Raleigh,Wake,"228 Fayetteville St, Raleigh, NC",https://thenewsagentsshop.com/,"Magazines, used books, comics; URL not verified",35.77746,-78.63931
+Bookstore,Independent bookstore,Mr. Mike's Used Books,,Cary,Wake,"6440 Tryon Road, Cary, NC",https://mrmikesusedbooks.com/,Used; big children's section,35.74407,-78.76083
+Bookstore,Independent bookstore,Page 158 Books,,Wake Forest,Wake,"415 Brooks St Suite B, Wake Forest, NC 27587",https://www.page158books.com/,New; children's; story times,35.9749,-78.50951

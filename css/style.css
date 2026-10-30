@@ -62,9 +62,14 @@ a { color: var(--accent); }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
 
 /* Header */
-.site-header { padding: 40px 0 24px; border-bottom: 1px solid var(--line); background: var(--surface-2); }
+.site-header { padding: 32px 0 24px; border-bottom: 1px solid var(--line); background: var(--surface-2); }
 .brand { font-family: var(--serif); font-weight: 700; font-size: clamp(2rem, 6vw, 3rem); margin: 0; letter-spacing: -.01em; }
-.brand-mark { color: var(--accent); font-size: .7em; vertical-align: .12em; }
+.brand { display: flex; align-items: center; gap: 14px; }
+.logo { width: clamp(52px, 12vw, 72px); height: auto; aspect-ratio: 1; border-radius: 50%; object-fit: cover; border: 3px solid var(--surface); box-shadow: 0 2px 8px rgba(60, 40, 20, .25); flex: none; }
+.site-nav { display: flex; gap: 4px; justify-content: flex-end; margin: -24px 0 8px; }
+.site-nav a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: .9rem; padding: 6px 12px; border-radius: 999px; }
+.site-nav a:hover { color: var(--text); }
+.site-nav a[aria-current="page"] { color: var(--accent); background: var(--surface); }
 .tagline { margin: 6px 0 0; color: var(--muted); max-width: 60ch; }
 .cal-links { margin: 14px 0 0; display: flex; gap: 10px; flex-wrap: wrap; }
 .btn { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: .9rem; text-decoration: none; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); background: var(--surface); }
@@ -183,3 +188,28 @@ select { font: inherit; color: var(--text); background: var(--surface); border: 
 [data-type="Talk & Discussion"] { --c: var(--t-talk); }
 [data-type="Sale & Fair"] { --c: var(--t-sale); }
 [data-type="Special Event"] { --c: var(--t-special); }
+
+/* Map page */
+.map-layout { display: grid; grid-template-columns: 1fr 300px; gap: 16px; margin-top: 8px; }
+.map { height: 640px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface-2); z-index: 0; }
+.place-list { list-style: none; margin: 0; padding: 0; max-height: 640px; overflow-y: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.place-list li + li { border-top: 1px solid var(--line); }
+.place-item { display: flex; gap: 10px; align-items: flex-start; width: 100%; text-align: left; background: none; border: 0; padding: 10px 12px; font: inherit; color: var(--text); cursor: pointer; }
+.place-item:hover { background: var(--surface-2); }
+.place-item strong { display: block; font-weight: 600; font-size: .9rem; }
+.place-item small { color: var(--muted); font-size: .8rem; }
+.place-item .swatch { margin-top: 5px; }
+.legend { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: .85rem; }
+.swatch { display: inline-block; width: 11px; height: 11px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1px var(--line); flex: none; }
+.swatch.lib { background: var(--t-club); }
+.swatch.shop { background: var(--t-author); margin-left: 8px; }
+.place-item .swatch.shop { margin-left: 0; }
+.popup { font: 14px/1.4 var(--sans); }
+.popup strong { font-size: 15px; }
+.popup-links { margin-top: 6px; }
+.leaflet-container a { color: var(--accent); }
+@media (max-width: 720px) {
+  .map-layout { grid-template-columns: 1fr; }
+  .map { height: 420px; }
+  .place-list { max-height: none; }
+}

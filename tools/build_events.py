@@ -151,6 +151,8 @@ def main(paths):
             "name": v["name"], "category": v["category"], "kind": v["kind"],
             "system": v["system_or_owner"], "town": v["town"], "county": v["county"],
             "address": v["address"], "website": v["website"], "notes": v["notes"],
+            "lat": float(v["lat"]) if v.get("lat") else None,
+            "lon": float(v["lon"]) if v.get("lon") else None,
         }
         for v in venues.values()
     ]

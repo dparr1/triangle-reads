@@ -6,7 +6,10 @@ A static website listing book and reading events at libraries and bookstores in 
 
 | Path | What it is |
 | --- | --- |
-| `index.html` | The page |
+| `index.html` | The events page |
+| `map.html` | Map of libraries and bookstores (Leaflet + OpenStreetMap) |
+| `js/map.js` | Map page code |
+| `img/` | Dragon logo and favicon |
 | `css/style.css` | Styles (light and dark mode) |
 | `js/app.js` | Search, filters, list view and month calendar |
 | `data/events.js` | The events the page shows (generated, don't edit by hand) |
@@ -55,7 +58,7 @@ python tools/merge_events.py data/events_all.csv data/events_calendar.csv data/s
 python tools/build_events.py data/events_all.csv
 ```
 
-The list of places in `data/triangle_libraries_bookstores.csv` drives the "Library or bookstore" filter, the Places tab and the search, so edit that file to add or change a venue.
+The list of places in `data/triangle_libraries_bookstores.csv` drives the "Library or bookstore" filter, the Places tab and the search, so edit that file to add or change a venue. Its `lat` and `lon` columns place it on the map.
 
 The site's header links to the Google Calendar. Those links only work for visitors if the calendar is public (Google Calendar → Settings for the calendar → Access permissions → Make available to public).
 

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Map · Triangle Reads</title>
+  <meta name="description" content="Map of libraries and bookstores across Wake, Durham, Orange and Chatham counties.">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="site-nav" aria-label="Pages">
+        <a href="index.html">Events</a>
+        <a href="map.html" aria-current="page">Map</a>
+      </nav>
+      <h1 class="brand"><img class="logo" src="img/dragon-logo.jpg" alt="" width="72" height="72"> Triangle Reads</h1>
+      <p class="tagline">Libraries and bookstores across Wake, Durham, Orange and Chatham counties. Click a place to see its upcoming events.</p>
+    </div>
+  </header>
+
+  <main class="wrap map-page">
+    <section class="controls" aria-label="Filter places">
+      <div class="search-row">
+        <label class="search">
+          <span class="visually-hidden">Search places</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M10 2a8 8 0 0 1 6.32 12.9l5.39 5.4-1.41 1.4-5.4-5.39A8 8 0 1 1 10 2m0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12"/></svg>
+          <input id="q" type="search" placeholder="Search places, towns, specialties…" autocomplete="off">
+        </label>
+        <div class="selects">
+          <label>
+            <span class="label">County</span>
+            <select id="county"><option value="">All counties</option></select>
+          </label>
+          <label>
+            <span class="label">Space</span>
+            <select id="space">
+              <option value="">Libraries and bookstores</option>
+              <option value="Library">Libraries</option>
+              <option value="Bookstore">Bookstores</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="status-row">
+        <p id="count" class="count" aria-live="polite"></p>
+        <span class="legend"><span class="swatch lib"></span> Library <span class="swatch shop"></span> Bookstore</span>
+      </div>
+    </section>
+
+    <div class="map-layout">
+      <div id="map" class="map" role="region" aria-label="Map of places"></div>
+      <ul id="place-list" class="place-list"></ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Map data © OpenStreetMap contributors, tiles © CARTO. Some library systems are shown at a single main location.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="data/events.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

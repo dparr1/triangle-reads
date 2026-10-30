@@ -10,7 +10,9 @@ window.TR_VENUES = [
   "county": "Chatham",
   "address": "",
   "website": "https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours",
-  "notes": ""
+  "notes": "",
+  "lat": 35.72421,
+  "lon": -79.18734
  },
  {
   "name": "Wren Memorial Library",
@@ -21,7 +23,9 @@ window.TR_VENUES = [
   "county": "Chatham",
   "address": "",
   "website": "https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours",
-  "notes": ""
+  "notes": "",
+  "lat": 35.72735,
+  "lon": -79.46467
  },
  {
   "name": "Goldston Public Library",
@@ -32,7 +36,9 @@ window.TR_VENUES = [
   "county": "Chatham",
   "address": "",
   "website": "https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours/goldston-public-library",
-  "notes": ""
+  "notes": "",
+  "lat": 35.59579,
+  "lon": -79.32832
  },
  {
   "name": "McIntyre's Books",
@@ -43,7 +49,9 @@ window.TR_VENUES = [
   "county": "Chatham",
   "address": "220 Market St, Pittsboro, NC 27312 (Fearrington Village)",
   "website": "https://mcintyresbooks.com/events/calendar",
-  "notes": "New; author events"
+  "notes": "New; author events",
+  "lat": 35.80111,
+  "lon": -79.09143
  },
  {
   "name": "Durham County Libraries",
@@ -54,7 +62,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "300 N. Roxboro St., Durham, NC 27701",
   "website": "https://durhamcountylibrary.libcal.com/calendar?cid=14288",
-  "notes": ""
+  "notes": "",
+  "lat": 35.99499,
+  "lon": -78.89725
  },
  {
   "name": "Duke University Libraries",
@@ -65,7 +75,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "",
   "website": "https://duke.libcal.com/calendar/events?cid=3819&t=d&d=0000-00-00&cal=3819&inc=0",
-  "notes": ""
+  "notes": "",
+  "lat": 36.00047,
+  "lon": -78.93774
  },
  {
   "name": "James E. Shepard Memorial Library",
@@ -76,7 +88,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "",
   "website": "https://library.nccu.edu/",
-  "notes": "URL not verified (site blocks automated checks)"
+  "notes": "URL not verified (site blocks automated checks)",
+  "lat": 35.97634,
+  "lon": -78.9009
  },
  {
   "name": "The Regulator Bookshop",
@@ -87,7 +101,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "720 9th St, Durham, NC 27705",
   "website": "https://www.regulatorbookshop.com/",
-  "notes": "New; children's"
+  "notes": "New; children's",
+  "lat": 36.00843,
+  "lon": -78.92206
  },
  {
   "name": "Letters Bookshop",
@@ -98,7 +114,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "116 W Main St, Durham, NC 27701",
   "website": "https://lettersbookshop.com/",
-  "notes": "New and used"
+  "notes": "New and used",
+  "lat": 35.99521,
+  "lon": -78.90085
  },
  {
   "name": "Rofhiwa Book Cafe",
@@ -109,7 +127,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "406 S Driver St, Durham, NC 27703",
   "website": "https://rofhiwabooks.com/",
-  "notes": "Black and African diaspora authors; cafe"
+  "notes": "Black and African diaspora authors; cafe",
+  "lat": 35.98193,
+  "lon": -78.87799
  },
  {
   "name": "Wentworth & Leggett Books",
@@ -120,7 +140,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "905 W Main St #20D, Durham, NC",
   "website": "https://wentworthleggettbooks.com/",
-  "notes": "New and used; Brightleaf Square"
+  "notes": "New and used; Brightleaf Square",
+  "lat": 36.00004,
+  "lon": -78.90939
  },
  {
   "name": "Golden Fig Books (Durham)",
@@ -131,7 +153,9 @@ window.TR_VENUES = [
   "county": "Durham",
   "address": "2706 Durham-Chapel Hill Blvd, Durham, NC",
   "website": "https://www.goldenfigbooks.com/",
-  "notes": "Used and new; children's"
+  "notes": "Used and new; children's",
+  "lat": 35.97404,
+  "lon": -78.93208
  },
  {
   "name": "Chapel Hill Public Library",
@@ -142,7 +166,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "",
   "website": "https://chapelhillpubliclibrary.org/",
-  "notes": ""
+  "notes": "",
+  "lat": 35.93079,
+  "lon": -79.0363
  },
  {
   "name": "Orange County Main Library",
@@ -153,7 +179,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "137 W Margaret Lane, Hillsborough, NC 27278",
   "website": "https://orangecountync.gov/m/directory/department?did=90",
-  "notes": ""
+  "notes": "",
+  "lat": 36.07444,
+  "lon": -79.10022
  },
  {
   "name": "Carrboro Cybrary",
@@ -164,7 +192,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "100 N Greensboro Street, Carrboro, NC 27510",
   "website": "https://orangecountync.gov/m/directory/department?did=92",
-  "notes": ""
+  "notes": "",
+  "lat": 35.91036,
+  "lon": -79.0722
  },
  {
   "name": "UNC-Chapel Hill Libraries (Davis, Wilson)",
@@ -175,7 +205,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "",
   "website": "https://calendar.lib.unc.edu/calendar/unc-libraries?cid=2998&t=g&d=0000-00-00&cal=2998&inc=0",
-  "notes": ""
+  "notes": "",
+  "lat": 35.91304,
+  "lon": -79.04787
  },
  {
   "name": "Golden Fig Books (Carrboro)",
@@ -186,7 +218,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "200 N Greensboro St, Carrboro, NC (Carr Mill Mall)",
   "website": "https://www.goldenfigbooks.com/",
-  "notes": "Used and new; children's"
+  "notes": "Used and new; children's",
+  "lat": 35.91119,
+  "lon": -79.0722
  },
  {
   "name": "Flyleaf Books",
@@ -197,7 +231,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "752 Martin Luther King Jr Blvd, Chapel Hill, NC 27514",
   "website": "https://flyleafbooks.com/",
-  "notes": "New and used; author events"
+  "notes": "New and used; author events",
+  "lat": 35.92382,
+  "lon": -79.05458
  },
  {
   "name": "Epilogue Books Chocolate Brews",
@@ -208,7 +244,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "109 E Franklin St Suite 100, Chapel Hill, NC 27514",
   "website": "https://epiloguebookschapelhill.com/",
-  "notes": "New; cafe; Spanish-language titles"
+  "notes": "New; cafe; Spanish-language titles",
+  "lat": 35.91332,
+  "lon": -79.05549
  },
  {
   "name": "Purple Crow Books",
@@ -219,7 +257,9 @@ window.TR_VENUES = [
   "county": "Orange",
   "address": "",
   "website": "http://purplecrowbooks.com/",
-  "notes": "Local authors; children's"
+  "notes": "Local authors; children's",
+  "lat": 36.07531,
+  "lon": -79.09969
  },
  {
   "name": "Wake County Libraries",
@@ -230,7 +270,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "",
   "website": "https://www.wake.gov/events?title=&field_department_target_id=25&field_category_id_target_id=All&location=All&field_end_date_value=&field_start_date_value=",
-  "notes": ""
+  "notes": "",
+  "lat": 35.76997,
+  "lon": -78.56857
  },
  {
   "name": "State Library of North Carolina",
@@ -241,7 +283,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "",
   "website": "https://library.nc.gov/",
-  "notes": ""
+  "notes": "",
+  "lat": 35.78257,
+  "lon": -78.63785
  },
  {
   "name": "NC State University Libraries (D.H. Hill, Hunt)",
@@ -252,7 +296,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "",
   "website": "https://www.lib.ncsu.edu/",
-  "notes": ""
+  "notes": "",
+  "lat": 35.7872,
+  "lon": -78.66962
  },
  {
   "name": "Quail Ridge Books",
@@ -263,7 +309,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "4209 Lassiter Mill Rd Suite 100, Raleigh, NC 27609",
   "website": "https://www.quailridgebooks.com/",
-  "notes": "New; children's; author events"
+  "notes": "New; children's; author events",
+  "lat": 35.83854,
+  "lon": -78.64432
  },
  {
   "name": "So & So Books",
@@ -274,7 +322,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "719 N Person St, Raleigh, NC 27604",
   "website": "https://www.soandsobooks.com/",
-  "notes": "New; independent presses; poetry and literary events"
+  "notes": "New; independent presses; poetry and literary events",
+  "lat": 35.7892,
+  "lon": -78.63441
  },
  {
   "name": "Blackbird Books & Coffee",
@@ -285,7 +335,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "323 Blake St, Raleigh, NC 27601",
   "website": "https://www.blackbirdbooksandcoffee.com/",
-  "notes": "New; cafe; queer, Black and Indigenous authors"
+  "notes": "New; cafe; queer, Black and Indigenous authors",
+  "lat": 35.77613,
+  "lon": -78.63573
  },
  {
   "name": "Bright Side Books & Wine",
@@ -296,7 +348,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "600 W Cabarrus St #107, Raleigh, NC",
   "website": "https://brightsidebooksandwine.com/",
-  "notes": "New; romance; wine bar"
+  "notes": "New; romance; wine bar",
+  "lat": 35.7742,
+  "lon": -78.6487
  },
  {
   "name": "Liberation Station Bookstore",
@@ -307,7 +361,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "430 Hill St, Raleigh, NC 27610",
   "website": "https://liberationstationbookstore.com/",
-  "notes": "Children's; Black literature; sources disagree on the address"
+  "notes": "Children's; Black literature; sources disagree on the address",
+  "lat": 35.78522,
+  "lon": -78.61728
  },
  {
   "name": "Dog-Eared Book Company",
@@ -318,7 +374,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "4011 Atlantic Ave, Raleigh, NC",
   "website": "https://dogearedbookco.com/",
-  "notes": "Used; URL not verified"
+  "notes": "Used; URL not verified",
+  "lat": 35.83702,
+  "lon": -78.60187
  },
  {
   "name": "The Readers' Corner",
@@ -329,7 +387,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "3201 Hillsborough St, Raleigh, NC",
   "website": "https://www.hillsboroughstreet.org/go/readers-corner",
-  "notes": "Used; comics, vinyl"
+  "notes": "Used; comics, vinyl",
+  "lat": 35.7893,
+  "lon": -78.6795
  },
  {
   "name": "Nice Price Books & Records",
@@ -340,7 +400,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "3106 Hillsborough St, Raleigh, NC",
   "website": "https://nicepricebooksandrecords.com/",
-  "notes": "Used; mostly records; URL not verified"
+  "notes": "Used; mostly records; URL not verified",
+  "lat": 35.78998,
+  "lon": -78.67778
  },
  {
   "name": "The Newsagents",
@@ -351,7 +413,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "228 Fayetteville St, Raleigh, NC",
   "website": "https://thenewsagentsshop.com/",
-  "notes": "Magazines, used books, comics; URL not verified"
+  "notes": "Magazines, used books, comics; URL not verified",
+  "lat": 35.77746,
+  "lon": -78.63931
  },
  {
   "name": "Mr. Mike's Used Books",
@@ -362,7 +426,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "6440 Tryon Road, Cary, NC",
   "website": "https://mrmikesusedbooks.com/",
-  "notes": "Used; big children's section"
+  "notes": "Used; big children's section",
+  "lat": 35.74407,
+  "lon": -78.76083
  },
  {
   "name": "Page 158 Books",
@@ -373,7 +439,9 @@ window.TR_VENUES = [
   "county": "Wake",
   "address": "415 Brooks St Suite B, Wake Forest, NC 27587",
   "website": "https://www.page158books.com/",
-  "notes": "New; children's; story times"
+  "notes": "New; children's; story times",
+  "lat": 35.9749,
+  "lon": -78.50951
  }
 ];
 window.TR_EVENTS = [
