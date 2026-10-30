@@ -1,0 +1,22 @@
+municipality,type,county,also_extends_into,county_seat,metro_area
+Apex,Town,Wake,,No,Raleigh-Cary MSA
+Cary,Town,Wake,Chatham,No,Raleigh-Cary MSA
+Fuquay-Varina,Town,Wake,,No,Raleigh-Cary MSA
+Garner,Town,Wake,,No,Raleigh-Cary MSA
+Holly Springs,Town,Wake,,No,Raleigh-Cary MSA
+Knightdale,Town,Wake,,No,Raleigh-Cary MSA
+Morrisville,Town,Wake,Durham,No,Raleigh-Cary MSA
+Raleigh,City,Wake,Durham,Yes,Raleigh-Cary MSA
+Rolesville,Town,Wake,,No,Raleigh-Cary MSA
+Wake Forest,Town,Wake,Franklin,No,Raleigh-Cary MSA
+Wendell,Town,Wake,,No,Raleigh-Cary MSA
+Zebulon,Town,Wake,Johnston,No,Raleigh-Cary MSA
+Angier,Town,Harnett,Wake,No,(mostly outside the eight counties)
+Durham,City,Durham,Wake; Orange,Yes,Durham-Chapel Hill MSA
+Carrboro,Town,Orange,,No,Durham-Chapel Hill MSA
+Chapel Hill,Town,Orange,Durham,No,Durham-Chapel Hill MSA
+Hillsborough,Town,Orange,,Yes,Durham-Chapel Hill MSA
+Mebane,City,Alamance,Orange,No,(mostly outside the eight counties)
+Goldston,Town,Chatham,,No,Durham-Chapel Hill MSA
+Pittsboro,Town,Chatham,,Yes,Durham-Chapel Hill MSA
+Siler City,Town,Chatham,,No,Durham-Chapel Hill MSA

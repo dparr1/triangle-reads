@@ -1,0 +1,65 @@
+category,kind,name,system_or_owner,town,county,address,website,notes
+Library,Public library,Athens Drive Community Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/athens-drive-community-library,
+Library,Public library,Cary Regional Library,Wake County Public Libraries,Cary,Wake,,https://www.wake.gov/departments-government/libraries/locations/cary-regional-library,
+Library,Public library,Duraleigh Road Community Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/duraleigh-road-community-library,
+Library,Public library,East Regional Library,Wake County Public Libraries,Knightdale,Wake,,https://www.wake.gov/departments-government/libraries/locations/east-regional-library,
+Library,Public library,Eva Perry Regional Library,Wake County Public Libraries,Apex,Wake,,https://www.wake.gov/departments-government/libraries/locations/eva-perry-regional-library,
+Library,Public library,Express Library Fayetteville Street,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/express-library-fayetteville-street,
+Library,Public library,Fuquay-Varina Community Library,Wake County Public Libraries,Fuquay-Varina,Wake,,https://www.wake.gov/departments-government/libraries/locations/fuquay-varina-community-library,
+Library,Public library,Green Road Community Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/green-road-community-library,
+Library,Public library,Holly Springs Community Library,Wake County Public Libraries,Holly Springs,Wake,,https://www.wake.gov/departments-government/libraries/locations/holly-springs-community-library,
+Library,Public library,Leesville Community Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/leesville-community-library,
+Library,Public library,Middle Creek Community Library,Wake County Public Libraries,Apex,Wake,,https://www.wake.gov/departments-government/libraries/locations/middle-creek-community-library,
+Library,Public library,Morrisville Community Library,Wake County Public Libraries,Morrisville,Wake,,https://www.wake.gov/departments-government/libraries/locations/morrisville-community-library,
+Library,Public library,North Regional Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/north-regional-library,
+Library,Public library,Northeast Regional Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/northeast-regional-library,
+Library,Public library,Oberlin Regional Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/oberlin-regional-library,
+Library,Public library,Olivia Raney Local History Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/olivia-raney-local-history-library,
+Library,Public library,Richard B. Harrison Community Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/richard-b-harrison-community-library,
+Library,Public library,Southeast Regional Library,Wake County Public Libraries,Garner,Wake,,https://www.wake.gov/departments-government/libraries/locations/southeast-regional-library,
+Library,Public library,Southgate Community Library,Wake County Public Libraries,Raleigh,Wake,,https://www.wake.gov/departments-government/libraries/locations/southgate-community-library,
+Library,Public library,Wake Forest Community Library,Wake County Public Libraries,Wake Forest,Wake,,https://www.wake.gov/departments-government/libraries/locations/wake-forest-community-library,
+Library,Public library,Wendell Community Library,Wake County Public Libraries,Wendell,Wake,,https://www.wake.gov/departments-government/libraries/locations/wendell-community-library,
+Library,Public library,West Regional Library,Wake County Public Libraries,Cary,Wake,,https://www.wake.gov/departments-government/libraries/locations/west-regional-library,
+Library,Public library,Zebulon Community Library,Wake County Public Libraries,Zebulon,Wake,,https://www.wake.gov/departments-government/libraries/locations/zebulon-community-library,
+Library,Public library,Main Library,Durham County Library,Durham,Durham,"300 N. Roxboro St., Durham, NC 27701",https://durhamcountylibrary.org/location/main-library/,
+Library,Public library,East Regional Library,Durham County Library,Durham,Durham,"211 Lick Creek Lane, Durham, NC 27703",https://durhamcountylibrary.org/location/east-regional-library/,
+Library,Public library,North Regional Library,Durham County Library,Durham,Durham,"221 Milton Road, Durham, NC 27712",https://durhamcountylibrary.org/location/north-regional-library/,
+Library,Public library,South Regional Library,Durham County Library,Durham,Durham,"4505 S. Alston Avenue, Durham, NC 27713",https://durhamcountylibrary.org/location/south-regional-library/,
+Library,Public library,Southwest Regional Library,Durham County Library,Durham,Durham,"3605 Shannon Road, Durham, NC 27707",https://durhamcountylibrary.org/location/southwest-regional-library/,
+Library,Public library,Bragtown Branch Library,Durham County Library,Durham,Durham,"3200 Dearborn Drive, Durham, NC 27704",https://durhamcountylibrary.org/location/bragtown-branch-library/,
+Library,Public library,Stanford L. Warren Branch Library,Durham County Library,Durham,Durham,"1201 Fayetteville Street, Durham, NC 27707",https://durhamcountylibrary.org/location/stanford-l-warren-branch-library/,
+Library,Public library,The Bookmobile,Durham County Library,Durham,Durham,,https://durhamcountylibrary.org/location/the-bookmobile/,
+Library,Public library,Chapel Hill Public Library,Town of Chapel Hill,Chapel Hill,Orange,,https://chapelhillpubliclibrary.org/,
+Library,Public library,Orange County Main Library,Orange County Public Library,Hillsborough,Orange,"137 W Margaret Lane, Hillsborough, NC 27278",https://orangecountync.gov/m/directory/department?did=90,
+Library,Public library,Carrboro Cybrary,Orange County Public Library,Carrboro,Orange,"100 N Greensboro Street, Carrboro, NC 27510",https://orangecountync.gov/m/directory/department?did=92,
+Library,Public library,Chatham Community Library,Chatham County Public Libraries,Pittsboro,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours,
+Library,Public library,Wren Memorial Library,Chatham County Public Libraries,Siler City,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours,
+Library,Public library,Goldston Public Library,Chatham County Public Libraries,Goldston,Chatham,,https://chathamcountync.gov/government/departments-programs-i-z/library/locations-hours/goldston-public-library,
+Library,State library,State Library of North Carolina,NC Dept. of Natural and Cultural Resources,Raleigh,Wake,,https://library.nc.gov/,
+Library,University library,"NC State University Libraries (D.H. Hill, Hunt)",NC State University,Raleigh,Wake,,https://www.lib.ncsu.edu/,
+Library,University library,Duke University Libraries,Duke University,Durham,Durham,,https://library.duke.edu/,
+Library,University library,"UNC-Chapel Hill Libraries (Davis, Wilson)",UNC-Chapel Hill,Chapel Hill,Orange,,https://library.unc.edu/,
+Library,University library,James E. Shepard Memorial Library,NC Central University,Durham,Durham,,https://library.nccu.edu/,URL not verified (site blocks automated checks)
+Bookstore,Independent bookstore,Quail Ridge Books,,Raleigh,Wake,"4209 Lassiter Mill Rd Suite 100, Raleigh, NC 27609",https://www.quailridgebooks.com/,New; children's; author events
+Bookstore,Independent bookstore,So & So Books,,Raleigh,Wake,"719 N Person St, Raleigh, NC 27604",https://www.soandsobooks.com/,New; independent presses; poetry and literary events
+Bookstore,Independent bookstore,Blackbird Books & Coffee,,Raleigh,Wake,"323 Blake St, Raleigh, NC 27601",https://www.blackbirdbooksandcoffee.com/,"New; cafe; queer, Black and Indigenous authors"
+Bookstore,Independent bookstore,Bright Side Books & Wine,,Raleigh,Wake,"600 W Cabarrus St #107, Raleigh, NC",https://brightsidebooksandwine.com/,New; romance; wine bar
+Bookstore,Independent bookstore,Liberation Station Bookstore,,Raleigh,Wake,"430 Hill St, Raleigh, NC 27610",https://liberationstationbookstore.com/,Children's; Black literature; sources disagree on the address
+Bookstore,Independent bookstore,Dog-Eared Book Company,,Raleigh,Wake,"4011 Atlantic Ave, Raleigh, NC",https://dogearedbookco.com/,Used; URL not verified
+Bookstore,Independent bookstore,The Readers' Corner,,Raleigh,Wake,"3201 Hillsborough St, Raleigh, NC",https://www.hillsboroughstreet.org/go/readers-corner,"Used; comics, vinyl"
+Bookstore,Independent bookstore,Nice Price Books & Records,,Raleigh,Wake,"3106 Hillsborough St, Raleigh, NC",https://nicepricebooksandrecords.com/,Used; mostly records; URL not verified
+Bookstore,Independent bookstore,The Newsagents,,Raleigh,Wake,"228 Fayetteville St, Raleigh, NC",https://thenewsagentsshop.com/,"Magazines, used books, comics; URL not verified"
+Bookstore,Independent bookstore,Mr. Mike's Used Books,,Cary,Wake,"6440 Tryon Road, Cary, NC",https://mrmikesusedbooks.com/,Used; big children's section
+Bookstore,Independent bookstore,Page 158 Books,,Wake Forest,Wake,"415 Brooks St Suite B, Wake Forest, NC 27587",https://www.page158books.com/,New; children's; story times
+Bookstore,Independent bookstore,The Regulator Bookshop,,Durham,Durham,"720 9th St, Durham, NC 27705",https://www.regulatorbookshop.com/,New; children's
+Bookstore,Independent bookstore,Letters Bookshop,,Durham,Durham,"116 W Main St, Durham, NC 27701",https://lettersbookshop.com/,New and used
+Bookstore,Independent bookstore,Rofhiwa Book Cafe,,Durham,Durham,"406 S Driver St, Durham, NC 27703",https://rofhiwabooks.com/,Black and African diaspora authors; cafe
+Bookstore,Independent bookstore,Wentworth & Leggett Books,,Durham,Durham,"905 W Main St #20D, Durham, NC",https://wentworthleggettbooks.com/,New and used; Brightleaf Square
+Bookstore,Independent bookstore,Golden Fig Books (Durham),,Durham,Durham,"2706 Durham-Chapel Hill Blvd, Durham, NC",https://www.goldenfigbooks.com/,Used and new; children's
+Bookstore,Independent bookstore,Golden Fig Books (Carrboro),,Carrboro,Orange,"200 N Greensboro St, Carrboro, NC (Carr Mill Mall)",https://www.goldenfigbooks.com/,Used and new; children's
+Bookstore,Independent bookstore,Flyleaf Books,,Chapel Hill,Orange,"752 Martin Luther King Jr Blvd, Chapel Hill, NC 27514",https://flyleafbooks.com/,New and used; author events
+Bookstore,Independent bookstore,Epilogue Books Chocolate Brews,,Chapel Hill,Orange,"109 E Franklin St Suite 100, Chapel Hill, NC 27514",https://epiloguebookschapelhill.com/,New; cafe; Spanish-language titles
+Bookstore,Independent bookstore,Prologue Rare & Used Books,,Chapel Hill,Orange,"Next door to Epilogue, E Franklin St",,Rare and used; no website found
+Bookstore,Independent bookstore,Purple Crow Books,,Hillsborough,Orange,,http://purplecrowbooks.com/,Local authors; children's
+Bookstore,Independent bookstore,McIntyre's Books,,Pittsboro,Chatham,"220 Market St, Pittsboro, NC 27312 (Fearrington Village)",https://fearrington.com/pages/mcintyres-books,New; author events

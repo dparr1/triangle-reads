@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Triangle Reads</title>
+  <meta name="description" content="Author events, book clubs, storytimes and more at libraries and bookstores across the Triangle: Wake, Durham, Orange and Chatham counties.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand"><span class="brand-mark" aria-hidden="true">▲</span> Triangle Reads</h1>
+      <p class="tagline">Author events, book clubs, storytimes and more at libraries and bookstores across Wake, Durham, Orange and Chatham counties.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Search and filters">
+      <div class="search-row">
+        <label class="search">
+          <span class="visually-hidden">Search events</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M10 2a8 8 0 0 1 6.32 12.9l5.39 5.4-1.41 1.4-5.4-5.39A8 8 0 1 1 10 2m0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12"/></svg>
+          <input id="q" type="search" placeholder="Search titles, authors, bookstores, libraries…" autocomplete="off">
+        </label>
+        <div class="selects">
+          <label>
+            <span class="label">Location</span>
+            <select id="city"><option value="">All locations</option></select>
+          </label>
+          <label>
+            <span class="label">Space</span>
+            <select id="space"><option value="">All spaces</option></select>
+          </label>
+        </div>
+      </div>
+
+      <div class="chip-row" role="group" aria-label="Event type">
+        <span class="label">Type</span>
+        <div id="types" class="chips"></div>
+      </div>
+
+      <div class="status-row">
+        <p id="count" class="count" aria-live="polite"></p>
+        <label class="toggle"><input id="past" type="checkbox"> Include past events</label>
+        <button id="clear" class="link-btn" type="button">Clear filters</button>
+      </div>
+    </section>
+
+    <div class="view-tabs" role="tablist" aria-label="View">
+      <button role="tab" id="tab-list" aria-selected="true" data-view="list">List</button>
+      <button role="tab" id="tab-cal" aria-selected="false" data-view="calendar">Calendar</button>
+    </div>
+
+    <section id="list-view" class="list-view" aria-labelledby="tab-list"></section>
+
+    <section id="cal-view" class="cal-view" aria-labelledby="tab-cal" hidden>
+      <div class="cal-head">
+        <button id="prev" class="icon-btn" type="button" aria-label="Previous month">‹</button>
+        <h2 id="cal-title"></h2>
+        <button id="next" class="icon-btn" type="button" aria-label="Next month">›</button>
+        <button id="today" class="link-btn" type="button">This month</button>
+      </div>
+      <div class="cal-grid" id="cal-grid"></div>
+      <div id="day-detail" class="day-detail"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Event details come from each host's own events page. Times and venues can change, so check the event link before you go.</p>
+      <p id="updated"></p>
+    </div>
+  </footer>
+
+  <script src="data/events.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
