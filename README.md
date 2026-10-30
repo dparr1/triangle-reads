@@ -11,9 +11,12 @@ A static website listing book and reading events at libraries and bookstores in 
 | `js/app.js` | Search, filters, list view and month calendar |
 | `data/events.js` | The events the page shows (generated, don't edit by hand) |
 | `data/events.json` | Same events as JSON, for other uses |
-| `data/events_calendar.csv` | Events pulled from the Triangle Reads Google Calendar (what the site shows) |
+| `data/events_calendar.csv` | Events pulled from the Triangle Reads Google Calendar |
 | `data/events_2026-11.csv` | Earlier hand-made November 2026 list (kept for reference) |
 | `data/triangle_*.csv` | Libraries, bookstores, towns and counties used to tag events |
+| `data/scraped/*.csv` | Events pulled from venue websites |
+| `data/events_all.csv` | Calendar and scraped events merged (what the site shows) |
+| `tools/merge_events.py` | Merges event CSVs and drops duplicates |
 | `tools/import_gcal.py` | Turns a Google Calendar events export (JSON) into `data/events_calendar.csv` |
 | `tools/build_events.py` | Turns event CSVs into `data/events.js` |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
@@ -42,6 +45,17 @@ The Triangle Reads Google Calendar is the main source of events. Calendar titles
    ```
 
 3. Upload the new `data/events.js` to GitHub.
+
+### Adding events scraped from the venues' own pages
+
+Event lists pulled from library and bookstore websites go in `data/scraped/` as CSVs. To combine them with the Google Calendar events (calendar first, so it wins on duplicates) and rebuild:
+
+```
+python tools/merge_events.py data/events_all.csv data/events_calendar.csv data/scraped/*.csv
+python tools/build_events.py data/events_all.csv
+```
+
+The list of places in `data/triangle_libraries_bookstores.csv` drives the "Library or bookstore" filter, the Places tab and the search, so edit that file to add or change a venue.
 
 The site's header links to the Google Calendar. Those links only work for visitors if the calendar is public (Google Calendar → Settings for the calendar → Access permissions → Make available to public).
 

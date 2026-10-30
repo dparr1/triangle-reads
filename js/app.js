@@ -3,6 +3,9 @@
 
   const EVENTS = (window.TR_EVENTS || []).slice();
   const TYPES = window.TR_TYPES || [];
+  const VENUES = (window.TR_VENUES || []).slice().sort((a, b) => a.name.localeCompare(b.name));
+  const VENUE = new Map(VENUES.map((v) => [v.name, v]));
+  const venueText = (v) => (v ? [v.name, v.kind, v.system, v.town, v.county, v.address, v.notes].join(" ") : "");
   const SPACES = ["Bookstore", "Library", "Other Venue"];
   const $ = (id) => document.getElementById(id);
 
@@ -13,7 +16,11 @@
   // Search text is precomputed once per event.
   for (const e of EVENTS) {
     e.lastDate = e.endDate || e.date;
-    e._text = [e.title, e.host, e.location, e.city, e.county, e.space, e.notes, e.description || "", ...e.types].join(" ").toLowerCase();
+    e._text = [e.title, e.host, e.location, e.city, e.county, e.space, e.notes, e.description || "", ...e.types, venueText(VENUE.get(e.host))].join(" ").toLowerCase();
+  }
+  for (const v of VENUES) {
+    v._text = venueText(v).toLowerCase();
+    v.count = 0;
   }
 
   const state = {
@@ -21,6 +28,7 @@
     types: new Set(),
     city: "",
     space: "",
+    host: "",
     past: false,
     view: "list",
     month: null, // "YYYY-MM"
@@ -34,8 +42,9 @@
     state.types = new Set((p.get("type") || "").split(",").filter((t) => TYPES.includes(t)));
     state.city = p.get("city") || "";
     state.space = p.get("space") || "";
+    state.host = p.get("host") || "";
     state.past = p.get("past") === "1";
-    state.view = p.get("view") === "calendar" ? "calendar" : "list";
+    state.view = ["calendar", "places"].includes(p.get("view")) ? p.get("view") : "list";
     state.month = /^\d{4}-\d{2}$/.test(p.get("month") || "") ? p.get("month") : null;
     state.day = /^\d{4}-\d{2}-\d{2}$/.test(p.get("day") || "") ? p.get("day") : null;
   }
@@ -46,7 +55,9 @@
     if (state.types.size) p.set("type", [...state.types].join(","));
     if (state.city) p.set("city", state.city);
     if (state.space) p.set("space", state.space);
+    if (state.host) p.set("host", state.host);
     if (state.past) p.set("past", "1");
+    if (state.view === "places") p.set("view", "places");
     if (state.view === "calendar") {
       p.set("view", "calendar");
       if (state.month) p.set("month", state.month);
@@ -62,9 +73,21 @@
     if (!opts.ignoreType && state.types.size && !e.types.some((t) => state.types.has(t))) return false;
     if (state.city && e.city !== state.city) return false;
     if (state.space && e.space !== state.space) return false;
+    if (state.host && e.host !== state.host) return false;
     if (state.q) {
       const words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
       if (!words.every((w) => e._text.includes(w))) return false;
+    }
+    return true;
+  }
+
+  function placeMatches(v) {
+    if (state.city && v.town !== state.city) return false;
+    if (state.space && v.category !== state.space) return false;
+    if (state.host && v.name !== state.host) return false;
+    if (state.q) {
+      const words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+      if (!words.every((w) => v._text.includes(w))) return false;
     }
     return true;
   }
@@ -153,10 +176,14 @@
 
   /* ---------- Controls ---------- */
   function buildControls() {
-    const cities = [...new Set(EVENTS.map((e) => e.city).filter(Boolean))].sort();
+    const cities = [...new Set([...EVENTS.map((e) => e.city), ...VENUES.map((v) => v.town)].filter(Boolean))].sort();
     $("city").insertAdjacentHTML("beforeend", cities.map((c) => `<option>${esc(c)}</option>`).join(""));
-    const spaces = SPACES.filter((s) => EVENTS.some((e) => e.space === s));
+    const spaces = SPACES.filter((s) => EVENTS.some((e) => e.space === s) || VENUES.some((v) => v.category === s));
     $("space").insertAdjacentHTML("beforeend", spaces.map((s) => `<option>${esc(s)}</option>`).join(""));
+    for (const e of EVENTS) if (VENUE.has(e.host)) VENUE.get(e.host).count++;
+    const group = (cat, label) => `<optgroup label="${label}">${VENUES.filter((v) => v.category === cat)
+      .map((v) => `<option value="${esc(v.name)}">${esc(v.name)}${v.count ? ` (${v.count})` : ""}</option>`).join("")}</optgroup>`;
+    $("host").insertAdjacentHTML("beforeend", group("Library", "Libraries") + group("Bookstore", "Bookstores"));
 
     const types = TYPES.filter((t) => EVENTS.some((e) => e.types.includes(t)));
     $("types").innerHTML = types
@@ -177,6 +204,14 @@
     });
     $("city").addEventListener("change", (ev) => { state.city = ev.target.value; render(); });
     $("space").addEventListener("change", (ev) => { state.space = ev.target.value; render(); });
+    $("host").addEventListener("change", (ev) => { state.host = ev.target.value; render(); });
+    $("places-view").addEventListener("click", (ev) => {
+      const b = ev.target.closest("[data-host]");
+      if (!b) return;
+      state.host = b.dataset.host; state.view = "list"; state.q = ""; state.city = ""; state.space = "";
+      render();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
     $("past").addEventListener("change", (ev) => { state.past = ev.target.checked; render(); });
     $("clear").addEventListener("click", clearFilters);
     document.addEventListener("click", (ev) => { if (ev.target.closest("[data-clear]")) clearFilters(); });
@@ -197,7 +232,7 @@
   }
 
   function clearFilters() {
-    state.q = ""; state.types.clear(); state.city = ""; state.space = ""; state.past = false; state.day = null;
+    state.q = ""; state.types.clear(); state.city = ""; state.space = ""; state.host = ""; state.past = false; state.day = null;
     render();
   }
 
@@ -220,6 +255,7 @@
     $("q").value !== state.q && ($("q").value = state.q);
     $("city").value = state.city;
     $("space").value = state.space;
+    $("host").value = VENUE.has(state.host) ? state.host : "";
     $("past").checked = state.past;
     document.querySelectorAll(".chip").forEach((b) => {
       b.setAttribute("aria-pressed", state.types.has(b.dataset.type) ? "true" : "false");
@@ -228,6 +264,39 @@
     document.querySelectorAll(".view-tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.view === state.view ? "true" : "false"));
     $("list-view").hidden = state.view !== "list";
     $("cal-view").hidden = state.view !== "calendar";
+    $("places-view").hidden = state.view !== "places";
+    // Event-only controls don't apply to the list of places.
+    document.querySelector(".chip-row").hidden = state.view === "places";
+    $("past").parentElement.hidden = state.view === "places";
+  }
+
+  /* ---------- Places ---------- */
+  function renderPlaces() {
+    const list = VENUES.filter(placeMatches);
+    const upcoming = new Map();
+    for (const e of EVENTS) if (e.lastDate >= TODAY) upcoming.set(e.host, (upcoming.get(e.host) || 0) + 1);
+    const card = (v) => {
+      const n = upcoming.get(v.name) || 0;
+      const where = [v.address || v.town, v.county && `${v.county} County`].filter(Boolean).join(" · ");
+      return `<li class="place">
+        <h3>${esc(v.name)}</h3>
+        <p class="meta">${esc(v.kind)}${v.system && v.system !== v.name ? ` · ${esc(v.system)}` : ""}</p>
+        ${where ? `<p class="meta">${esc(where)}</p>` : ""}
+        ${v.notes && !/not verified|disagree/i.test(v.notes) ? `<p class="desc">${esc(v.notes)}</p>` : ""}
+        <div class="actions">
+          ${n ? `<button type="button" class="link-btn" data-host="${esc(v.name)}">${n} upcoming event${n === 1 ? "" : "s"}</button>` : `<span class="note">No events listed yet</span>`}
+          ${v.website ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}
+        </div>
+      </li>`;
+    };
+    const section = (cat, label) => {
+      const items = list.filter((v) => v.category === cat);
+      return items.length ? `<h2 class="places-head">${label}</h2><ul class="places">${items.map(card).join("")}</ul>` : "";
+    };
+    $("places-view").innerHTML = list.length
+      ? section("Library", "Libraries") + section("Bookstore", "Bookstores")
+      : `<div class="empty">No places match these filters. <button class="link-btn" type="button" data-clear>Clear filters</button></div>`;
+    return list.length;
   }
 
   /* ---------- Calendar ---------- */
@@ -281,6 +350,12 @@
   function render() {
     if (!state.month) state.month = defaultMonth();
     syncControls();
+    if (state.view === "places") {
+      const n = renderPlaces();
+      $("count").textContent = `${n} librar${n === 1 ? "y or bookstore" : "ies and bookstores"}`;
+      writeHash();
+      return;
+    }
     const results = EVENTS.filter((e) => matches(e));
     $("count").textContent = `${results.length} event${results.length === 1 ? "" : "s"}${state.past ? "" : " coming up"}`;
     if (state.view === "list") $("list-view").innerHTML = groupedList(results);
@@ -292,7 +367,7 @@
   buildControls();
   render();
   if (EVENTS.length) {
-    const last = EVENTS[EVENTS.length - 1].date;
+    const last = EVENTS.reduce((m, e) => (e.lastDate > m ? e.lastDate : m), EVENTS[0].lastDate);
     $("updated").textContent = `Listings currently run through ${fmtDay(last)}.`;
   }
   window.addEventListener("hashchange", () => { readHash(); render(); });

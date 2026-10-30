@@ -42,6 +42,10 @@
             <span class="label">Space</span>
             <select id="space"><option value="">All spaces</option></select>
           </label>
+          <label>
+            <span class="label">Library or bookstore</span>
+            <select id="host"><option value="">All places</option></select>
+          </label>
         </div>
       </div>
 
@@ -60,9 +64,12 @@
     <div class="view-tabs" role="tablist" aria-label="View">
       <button role="tab" id="tab-list" aria-selected="true" data-view="list">List</button>
       <button role="tab" id="tab-cal" aria-selected="false" data-view="calendar">Calendar</button>
+      <button role="tab" id="tab-places" aria-selected="false" data-view="places">Places</button>
     </div>
 
     <section id="list-view" class="list-view" aria-labelledby="tab-list"></section>
+
+    <section id="places-view" class="places-view" aria-labelledby="tab-places" hidden></section>
 
     <section id="cal-view" class="cal-view" aria-labelledby="tab-cal" hidden>
       <div class="cal-head">
