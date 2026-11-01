@@ -28,7 +28,7 @@
   /* ---------- Map ---------- */
   const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   const map = L.map("map", { scrollWheelZoom: false }).setView([35.85, -78.85], 10);
-  L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark ? "dark_all" : "light_all"}/{z}/{x}/{y}{r}.png?api_key=${CARTO_API_KEY}`, {
+  L.tileLayer(`https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=${CARTO_API_KEY}`, {
     maxZoom: 19,
     subdomains: "abcd",
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
