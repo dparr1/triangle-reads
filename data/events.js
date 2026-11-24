@@ -2438,6 +2438,46 @@ window.TR_EVENTS = [
  {
   "id": "2026-11-24-99",
   "date": "2026-11-24",
+  "start": "14:00",
+  "end": "17:00",
+  "title": "Graduate Writing Lab",
+  "endDate": "",
+  "host": "Duke University Libraries",
+  "hostType": "Library",
+  "location": "Bostock Library 121, West Campus, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "Writing"
+  ],
+  "url": "https://duke.libcal.com/event/17407923",
+  "notes": "graduate students; hybrid",
+  "description": "Drop-in writing group where graduate students get feedback on their writing."
+ },
+ {
+  "id": "2026-11-24-100",
+  "date": "2026-11-24",
+  "start": "16:00",
+  "end": "17:00",
+  "title": "Reading Time with Ms. Chloe",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "Main Library, 300 N. Roxboro St, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "Special Event"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/17783442",
+  "notes": "book a 20-minute slot",
+  "description": "One-on-one 20-minute reading practice sessions with a children's librarian."
+ },
+ {
+  "id": "2026-11-24-101",
+  "date": "2026-11-24",
   "start": "17:00",
   "end": "19:00",
   "title": "Writer's Club",
@@ -2456,7 +2496,67 @@ window.TR_EVENTS = [
   "description": "Writers' meetup."
  },
  {
-  "id": "2026-11-28-100",
+  "id": "2026-11-26-102",
+  "date": "2026-11-26",
+  "start": "10:30",
+  "end": "11:30",
+  "title": "Storytime with Johanna Banana",
+  "endDate": "",
+  "host": "McIntyre's Books",
+  "hostType": "Bookstore",
+  "location": "McIntyre's Books, 220 Market Street, Fearrington Village, Pittsboro",
+  "city": "Pittsboro",
+  "county": "Chatham",
+  "space": "Bookstore",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://mcintyresbooks.com/event/2026-11-26/storytime-johanna-banana",
+  "notes": "",
+  "description": "Weekly toddler and preschool storytime with bookseller Johanna Banana."
+ },
+ {
+  "id": "2026-11-27-103",
+  "date": "2026-11-27",
+  "start": "10:15",
+  "end": "",
+  "title": "Wonderland Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-11-27/wonderland-book-club",
+  "notes": "open to the public",
+  "description": "Book club run by the NC Writers' Network, meeting the last Friday of the month."
+ },
+ {
+  "id": "2026-11-28-104",
+  "date": "2026-11-28",
+  "start": "",
+  "end": "",
+  "title": "Small Business Saturday and Flyleaf's 17th Birthday",
+  "endDate": "",
+  "host": "Flyleaf Books",
+  "hostType": "Bookstore",
+  "location": "Flyleaf Books, 752 MLK Jr Blvd, Chapel Hill",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "space": "Bookstore",
+  "types": [
+   "Special Event"
+  ],
+  "url": "https://flyleafbooks.com/event/sbs-2026",
+  "notes": "",
+  "description": "Small Business Saturday and Flyleaf's birthday celebration with a scavenger hunt and a morning storytime."
+ },
+ {
+  "id": "2026-11-28-105",
   "date": "2026-11-28",
   "start": "10:30",
   "end": "11:30",
@@ -2477,7 +2577,7 @@ window.TR_EVENTS = [
   "description": "Storytime with children's author Linda Ashman for Small Business Saturday."
  },
  {
-  "id": "2026-11-28-101",
+  "id": "2026-11-28-106",
   "date": "2026-11-28",
   "start": "11:00",
   "end": "11:30",
@@ -2497,7 +2597,7 @@ window.TR_EVENTS = [
   "description": "Children's storytime, Tuesdays and Saturdays (listed Nov 3 through Nov 28)."
  },
  {
-  "id": "2026-11-28-102",
+  "id": "2026-11-28-107",
   "date": "2026-11-28",
   "start": "16:00",
   "end": "17:30",
@@ -2517,7 +2617,7 @@ window.TR_EVENTS = [
   "description": "Tea party celebrating an illustrated guide to Jane Austen's fiction and life."
  },
  {
-  "id": "2026-11-28-103",
+  "id": "2026-11-28-108",
   "date": "2026-11-28",
   "start": "17:00",
   "end": "18:00",
@@ -2537,7 +2637,7 @@ window.TR_EVENTS = [
   "description": "Dark and sinister literature across genres."
  },
  {
-  "id": "2026-11-30-104",
+  "id": "2026-11-30-109",
   "date": "2026-11-30",
   "start": "18:30",
   "end": "19:30",
@@ -2557,7 +2657,7 @@ window.TR_EVENTS = [
   "description": "Horror book club, last Monday of the month."
  },
  {
-  "id": "2026-11-30-105",
+  "id": "2026-11-30-110",
   "date": "2026-11-30",
   "start": "19:00",
   "end": "20:00",
@@ -2577,7 +2677,7 @@ window.TR_EVENTS = [
   "description": "Book club meeting."
  },
  {
-  "id": "2026-12-01-106",
+  "id": "2026-12-01-111",
   "date": "2026-12-01",
   "start": "09:45",
   "end": "10:15",
@@ -2597,7 +2697,7 @@ window.TR_EVENTS = [
   "description": "Toddlers and caregivers join songs, flannel board stories, read alouds and bubbles."
  },
  {
-  "id": "2026-12-01-107",
+  "id": "2026-12-01-112",
   "date": "2026-12-01",
   "start": "10:30",
   "end": "11:00",
@@ -2617,7 +2717,7 @@ window.TR_EVENTS = [
   "description": "Toddlers and caregivers join songs, flannel board stories, read alouds and bubbles."
  },
  {
-  "id": "2026-12-01-108",
+  "id": "2026-12-01-113",
   "date": "2026-12-01",
   "start": "11:00",
   "end": "12:00",
@@ -2637,7 +2737,7 @@ window.TR_EVENTS = [
   "description": "A discussion-based weekday session of the Page and Pen Writing Workshop covering any aspect of creative writing."
  },
  {
-  "id": "2026-12-01-109",
+  "id": "2026-12-01-114",
   "date": "2026-12-01",
   "start": "11:00",
   "end": "",
@@ -2657,7 +2757,47 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-01-110",
+  "id": "2026-12-01-115",
+  "date": "2026-12-01",
+  "start": "14:00",
+  "end": "17:00",
+  "title": "Graduate Writing Lab",
+  "endDate": "",
+  "host": "Duke University Libraries",
+  "hostType": "Library",
+  "location": "Bostock Library 121, West Campus, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "Writing"
+  ],
+  "url": "https://duke.libcal.com/event/17407924",
+  "notes": "graduate students; hybrid",
+  "description": "Drop-in writing group where graduate students get feedback on their writing."
+ },
+ {
+  "id": "2026-12-01-116",
+  "date": "2026-12-01",
+  "start": "14:30",
+  "end": "15:30",
+  "title": "Cookbook Discussion: Nadiya Bakes by Nadiya Hussain",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Talk & Discussion"
+  ],
+  "url": "https://www.wake.gov/events/nadiya-bakes-nadiya-hussain",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2026-12-01-117",
   "date": "2026-12-01",
   "start": "15:00",
   "end": "16:00",
@@ -2677,7 +2817,7 @@ window.TR_EVENTS = [
   "description": "Book club edition of the Craft and Chat program."
  },
  {
-  "id": "2026-12-01-111",
+  "id": "2026-12-01-118",
   "date": "2026-12-01",
   "start": "16:45",
   "end": "17:15",
@@ -2697,7 +2837,7 @@ window.TR_EVENTS = [
   "description": "A family storytime that explores China's three major celebrations through food, basic Mandarin and snacks."
  },
  {
-  "id": "2026-12-01-112",
+  "id": "2026-12-01-119",
   "date": "2026-12-01",
   "start": "17:30",
   "end": "18:30",
@@ -2717,7 +2857,7 @@ window.TR_EVENTS = [
   "description": "The final book club of the year discusses If We Were Villains by M.L. Rio."
  },
  {
-  "id": "2026-12-01-113",
+  "id": "2026-12-01-120",
   "date": "2026-12-01",
   "start": "18:00",
   "end": "19:00",
@@ -2737,7 +2877,7 @@ window.TR_EVENTS = [
   "description": "Monthly adult book club; this month's book hasn't been announced."
  },
  {
-  "id": "2026-12-02-114",
+  "id": "2026-12-02-121",
   "date": "2026-12-02",
   "start": "10:00",
   "end": "11:00",
@@ -2757,7 +2897,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of The Housemaid by Freida McFadden."
  },
  {
-  "id": "2026-12-02-115",
+  "id": "2026-12-02-122",
   "date": "2026-12-02",
   "start": "10:30",
   "end": "11:30",
@@ -2777,7 +2917,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of Erasure by Percival Everett."
  },
  {
-  "id": "2026-12-02-116",
+  "id": "2026-12-02-123",
   "date": "2026-12-02",
   "start": "11:00",
   "end": "12:00",
@@ -2798,7 +2938,7 @@ window.TR_EVENTS = [
   "description": "Holiday party for the A Novel Idea book club."
  },
  {
-  "id": "2026-12-02-117",
+  "id": "2026-12-02-124",
   "date": "2026-12-02",
   "start": "14:30",
   "end": "15:30",
@@ -2818,7 +2958,7 @@ window.TR_EVENTS = [
   "description": "Cookbook club discussing the Sweet Home Cafe Cookbook."
  },
  {
-  "id": "2026-12-02-118",
+  "id": "2026-12-02-125",
   "date": "2026-12-02",
   "start": "17:30",
   "end": "18:30",
@@ -2838,7 +2978,7 @@ window.TR_EVENTS = [
   "description": "Monthly nonfiction book club discussing Humankind by Rutger Bregman."
  },
  {
-  "id": "2026-12-03-119",
+  "id": "2026-12-03-126",
   "date": "2026-12-03",
   "start": "09:30",
   "end": "",
@@ -2858,7 +2998,7 @@ window.TR_EVENTS = [
   "description": "Spanish-language storytime for young children held every other Thursday morning with ISLA."
  },
  {
-  "id": "2026-12-03-120",
+  "id": "2026-12-03-127",
   "date": "2026-12-03",
   "start": "10:30",
   "end": "11:30",
@@ -2878,7 +3018,27 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2026-12-03-121",
+  "id": "2026-12-03-128",
+  "date": "2026-12-03",
+  "start": "18:00",
+  "end": "",
+  "title": "Author Event: Scott Gould",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://page158books.com/event/2026-12-03/author-event-scott-gould",
+  "notes": "RSVP via Eventbrite",
+  "description": "Scott Gould in conversation with Denise Cline, celebrating his new book Beneath A Fallen Sky."
+ },
+ {
+  "id": "2026-12-03-129",
   "date": "2026-12-03",
   "start": "18:30",
   "end": "20:00",
@@ -2899,7 +3059,7 @@ window.TR_EVENTS = [
   "description": "A virtual panel of North Carolina authors."
  },
  {
-  "id": "2026-12-03-122",
+  "id": "2026-12-03-130",
   "date": "2026-12-03",
   "start": "18:30",
   "end": "20:00",
@@ -2919,7 +3079,7 @@ window.TR_EVENTS = [
   "description": "Read quietly together."
  },
  {
-  "id": "2026-12-03-123",
+  "id": "2026-12-03-131",
   "date": "2026-12-03",
   "start": "18:30",
   "end": "19:30",
@@ -2939,7 +3099,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of The Housemaid by Freida McFadden."
  },
  {
-  "id": "2026-12-03-124",
+  "id": "2026-12-03-132",
   "date": "2026-12-03",
   "start": "19:00",
   "end": "21:00",
@@ -2959,7 +3119,7 @@ window.TR_EVENTS = [
   "description": "Poets compete with original poems, scored by five randomly selected judges."
  },
  {
-  "id": "2026-12-04-125",
+  "id": "2026-12-04-133",
   "date": "2026-12-04",
   "start": "18:30",
   "end": "19:30",
@@ -2979,7 +3139,7 @@ window.TR_EVENTS = [
   "description": "Monthly science fiction and fantasy book club with roundtable discussion."
  },
  {
-  "id": "2026-12-05-126",
+  "id": "2026-12-05-134",
   "date": "2026-12-05",
   "start": "11:00",
   "end": "",
@@ -2999,7 +3159,27 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-05-127",
+  "id": "2026-12-05-135",
+  "date": "2026-12-05",
+  "start": "13:00",
+  "end": "14:30",
+  "title": "Holiday Treats: A Cookbook Discussion",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Green Road Community Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Talk & Discussion"
+  ],
+  "url": "https://www.wake.gov/events/holiday-treats-cookbook-discussion",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2026-12-05-136",
   "date": "2026-12-05",
   "start": "15:00",
   "end": "16:00",
@@ -3019,7 +3199,7 @@ window.TR_EVENTS = [
   "description": "Adult readers share book recommendations."
  },
  {
-  "id": "2026-12-06-128",
+  "id": "2026-12-06-137",
   "date": "2026-12-06",
   "start": "15:00",
   "end": "",
@@ -3039,7 +3219,28 @@ window.TR_EVENTS = [
   "description": "Book club co-hosted with Wake Forest Indivisible reading books about authoritarianism."
  },
  {
-  "id": "2026-12-07-129",
+  "id": "2026-12-06-138",
+  "date": "2026-12-06",
+  "start": "16:00",
+  "end": "",
+  "title": "QRB Book Club Holiday Party",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (contact Quail Ridge Books for location), Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club",
+   "Special Event"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-06/qrb-book-club",
+  "notes": "offsite",
+  "description": "The store's monthly book club, held as a holiday party this month."
+ },
+ {
+  "id": "2026-12-07-139",
   "date": "2026-12-07",
   "start": "18:00",
   "end": "19:00",
@@ -3059,7 +3260,7 @@ window.TR_EVENTS = [
   "description": "Monthly horror book club discussing Secret Santa by Andrew Shaffer."
  },
  {
-  "id": "2026-12-07-130",
+  "id": "2026-12-07-140",
   "date": "2026-12-07",
   "start": "18:00",
   "end": "19:00",
@@ -3079,7 +3280,7 @@ window.TR_EVENTS = [
   "description": "Book club led by David Leone that reads books which inspired movies or shows."
  },
  {
-  "id": "2026-12-07-131",
+  "id": "2026-12-07-141",
   "date": "2026-12-07",
   "start": "19:00",
   "end": "20:00",
@@ -3099,7 +3300,7 @@ window.TR_EVENTS = [
   "description": "Reading and discussion of The Housekeepers by Alex Hay."
  },
  {
-  "id": "2026-12-08-132",
+  "id": "2026-12-08-142",
   "date": "2026-12-08",
   "start": "10:00",
   "end": "11:00",
@@ -3119,7 +3320,7 @@ window.TR_EVENTS = [
   "description": "Book club edition of the Craft and Chat program."
  },
  {
-  "id": "2026-12-08-133",
+  "id": "2026-12-08-143",
   "date": "2026-12-08",
   "start": "10:00",
   "end": "11:00",
@@ -3139,7 +3340,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of Time of the Child by Niall Williams."
  },
  {
-  "id": "2026-12-08-134",
+  "id": "2026-12-08-144",
   "date": "2026-12-08",
   "start": "11:00",
   "end": "",
@@ -3159,7 +3360,27 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-08-135",
+  "id": "2026-12-08-145",
+  "date": "2026-12-08",
+  "start": "14:30",
+  "end": "",
+  "title": "OLLI Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (contact Quail Ridge Books for location), Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-08/olli-book-club",
+  "notes": "offsite",
+  "description": "Book club for Osher Lifelong Learning Institute members."
+ },
+ {
+  "id": "2026-12-08-146",
   "date": "2026-12-08",
   "start": "17:00",
   "end": "19:00",
@@ -3179,7 +3400,7 @@ window.TR_EVENTS = [
   "description": "A monthly meetup for slam poets with a warm-up, reading, writing time and open mic."
  },
  {
-  "id": "2026-12-08-136",
+  "id": "2026-12-08-147",
   "date": "2026-12-08",
   "start": "18:00",
   "end": "19:00",
@@ -3199,7 +3420,7 @@ window.TR_EVENTS = [
   "description": "Monthly book club for YA fiction read by adults."
  },
  {
-  "id": "2026-12-09-137",
+  "id": "2026-12-09-148",
   "date": "2026-12-09",
   "start": "10:00",
   "end": "11:00",
@@ -3219,7 +3440,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of Good Dirt by Charmaine Wilkerson."
  },
  {
-  "id": "2026-12-09-138",
+  "id": "2026-12-09-149",
   "date": "2026-12-09",
   "start": "10:00",
   "end": "11:00",
@@ -3239,7 +3460,7 @@ window.TR_EVENTS = [
   "description": "Book club discussing One by One by Ruth Ware."
  },
  {
-  "id": "2026-12-09-139",
+  "id": "2026-12-09-150",
   "date": "2026-12-09",
   "start": "14:30",
   "end": "16:00",
@@ -3259,7 +3480,7 @@ window.TR_EVENTS = [
   "description": "Reading and discussion of The Backyard Bird Chronicles by Amy Tan."
  },
  {
-  "id": "2026-12-09-140",
+  "id": "2026-12-09-151",
   "date": "2026-12-09",
   "start": "18:30",
   "end": "19:30",
@@ -3279,7 +3500,7 @@ window.TR_EVENTS = [
   "description": "Book club discussing Atmosphere by Taylor Jenkins Reid."
  },
  {
-  "id": "2026-12-09-141",
+  "id": "2026-12-09-152",
   "date": "2026-12-09",
   "start": "18:30",
   "end": "19:30",
@@ -3299,7 +3520,7 @@ window.TR_EVENTS = [
   "description": "Virtual book club where members bring their own book to discuss."
  },
  {
-  "id": "2026-12-10-142",
+  "id": "2026-12-10-153",
   "date": "2026-12-10",
   "start": "10:30",
   "end": "11:30",
@@ -3319,7 +3540,7 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2026-12-10-143",
+  "id": "2026-12-10-154",
   "date": "2026-12-10",
   "start": "10:30",
   "end": "11:30",
@@ -3339,7 +3560,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of The Heaven and Earth Grocery Store by James McBride."
  },
  {
-  "id": "2026-12-10-144",
+  "id": "2026-12-10-155",
   "date": "2026-12-10",
   "start": "10:30",
   "end": "11:30",
@@ -3359,7 +3580,7 @@ window.TR_EVENTS = [
   "description": "Recurring novel discussion group."
  },
  {
-  "id": "2026-12-10-145",
+  "id": "2026-12-10-156",
   "date": "2026-12-10",
   "start": "18:30",
   "end": "",
@@ -3379,7 +3600,27 @@ window.TR_EVENTS = [
   "description": "Author event with Asheville writers Denise Kiernan and Elizabeth Kostova."
  },
  {
-  "id": "2026-12-11-146",
+  "id": "2026-12-10-157",
+  "date": "2026-12-10",
+  "start": "19:30",
+  "end": "20:45",
+  "title": "Poetry Club: Full of Stars",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "14401 Green Elm Ln, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Poetry"
+  ],
+  "url": "https://www.wake.gov/events/poetry-club-full-stars",
+  "notes": "sign-up required; with Raleigh Astronomy Club",
+  "description": ""
+ },
+ {
+  "id": "2026-12-11-158",
   "date": "2026-12-11",
   "start": "17:00",
   "end": "19:00",
@@ -3399,7 +3640,27 @@ window.TR_EVENTS = [
   "description": "Bring a book to read silently, with a chat period at the start."
  },
  {
-  "id": "2026-12-12-147",
+  "id": "2026-12-11-159",
+  "date": "2026-12-11",
+  "start": "19:00",
+  "end": "",
+  "title": "Queer Quails Qlub",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (contact Quail Ridge Books for location), Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-11/queer-quails-qlub",
+  "notes": "offsite",
+  "description": "Monthly book club reading queer and trans fiction and nonfiction."
+ },
+ {
+  "id": "2026-12-12-160",
   "date": "2026-12-12",
   "start": "11:00",
   "end": "",
@@ -3419,7 +3680,7 @@ window.TR_EVENTS = [
   "description": "Author event for Sayla is My Name, in conversation with Marjorie Hudson."
  },
  {
-  "id": "2026-12-12-148",
+  "id": "2026-12-12-161",
   "date": "2026-12-12",
   "start": "11:00",
   "end": "",
@@ -3439,7 +3700,7 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-12-149",
+  "id": "2026-12-12-162",
   "date": "2026-12-12",
   "start": "14:30",
   "end": "16:00",
@@ -3459,7 +3720,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of The Inferno by Dante."
  },
  {
-  "id": "2026-12-12-150",
+  "id": "2026-12-12-163",
   "date": "2026-12-12",
   "start": "17:00",
   "end": "19:00",
@@ -3479,7 +3740,7 @@ window.TR_EVENTS = [
   "description": "Bring a book to read silently, with a chat period at the start."
  },
  {
-  "id": "2026-12-14-151",
+  "id": "2026-12-14-164",
   "date": "2026-12-14",
   "start": "18:00",
   "end": "19:00",
@@ -3499,7 +3760,7 @@ window.TR_EVENTS = [
   "description": "Monthly queer book club discussing Awakened by A.E. Osworth."
  },
  {
-  "id": "2026-12-14-152",
+  "id": "2026-12-14-165",
   "date": "2026-12-14",
   "start": "18:30",
   "end": "19:30",
@@ -3519,7 +3780,7 @@ window.TR_EVENTS = [
   "description": "Book club discussing the hottest new fiction titles."
  },
  {
-  "id": "2026-12-14-153",
+  "id": "2026-12-14-166",
   "date": "2026-12-14",
   "start": "18:30",
   "end": "20:00",
@@ -3539,7 +3800,47 @@ window.TR_EVENTS = [
   "description": "Virtual book club discussing That's How They Get You by Damon Young."
  },
  {
-  "id": "2026-12-15-154",
+  "id": "2026-12-14-167",
+  "date": "2026-12-14",
+  "start": "18:30",
+  "end": "",
+  "title": "Raleigh Brewing Smut Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Raleigh Brewing Company, 3709 Neil St, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-14/raleigh-brewing-smut-book-club-offsite",
+  "notes": "offsite",
+  "description": "Romance book club at Raleigh Brewing Company for readers who like plot twists and a little steam."
+ },
+ {
+  "id": "2026-12-14-168",
+  "date": "2026-12-14",
+  "start": "19:00",
+  "end": "",
+  "title": "Not for Men Only Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (contact Quail Ridge Books for location), Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-14/not-men-only-book-club",
+  "notes": "offsite",
+  "description": "Book club open to anyone whose picks generally appeal to male readers."
+ },
+ {
+  "id": "2026-12-15-169",
   "date": "2026-12-15",
   "start": "11:00",
   "end": "",
@@ -3559,7 +3860,7 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-15-155",
+  "id": "2026-12-15-170",
   "date": "2026-12-15",
   "start": "11:00",
   "end": "12:00",
@@ -3579,7 +3880,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of The Lion Women of Tehran by Marjan Kamali."
  },
  {
-  "id": "2026-12-15-156",
+  "id": "2026-12-15-171",
   "date": "2026-12-15",
   "start": "11:30",
   "end": "12:30",
@@ -3599,7 +3900,7 @@ window.TR_EVENTS = [
   "description": "Cookbook club discussing The Perfect Cookie."
  },
  {
-  "id": "2026-12-15-157",
+  "id": "2026-12-15-172",
   "date": "2026-12-15",
   "start": "17:00",
   "end": "19:00",
@@ -3619,7 +3920,107 @@ window.TR_EVENTS = [
   "description": "A casual session for writers to talk about projects and write."
  },
  {
-  "id": "2026-12-16-158",
+  "id": "2026-12-16-173",
+  "date": "2026-12-16",
+  "start": "10:00",
+  "end": "11:00",
+  "title": "North Book Club",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, 221 Milton Rd, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/15880861",
+  "notes": "",
+  "description": "Monthly fiction book club at North Regional Library."
+ },
+ {
+  "id": "2026-12-16-174",
+  "date": "2026-12-16",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Baby and Me Lapsit Storytime",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "Main Library, 300 N. Roxboro St, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/18018047",
+  "notes": "ages 0-23 months",
+  "description": "Stories, hand rhymes and bubbles for infants."
+ },
+ {
+  "id": "2026-12-16-175",
+  "date": "2026-12-16",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Fun Time Storytime",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "South Regional Library, 4505 S. Alston Ave, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/15882995",
+  "notes": "",
+  "description": "Stories, songs, fingerplays, puppets and movement for young children."
+ },
+ {
+  "id": "2026-12-16-176",
+  "date": "2026-12-16",
+  "start": "12:30",
+  "end": "14:00",
+  "title": "Testers & Tasters Cookbook Club",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, 221 Milton Rd, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/15946886",
+  "notes": "registration required",
+  "description": "Cookbook club for adults; this month, holiday cookies."
+ },
+ {
+  "id": "2026-12-16-177",
+  "date": "2026-12-16",
+  "start": "15:30",
+  "end": "17:00",
+  "title": "Food & Fiction",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, 221 Milton Rd, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "Special Event"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/16863486",
+  "notes": "tweens and teens",
+  "description": "A teen class pairing a simple snack recipe with a reading on a book theme."
+ },
+ {
+  "id": "2026-12-16-178",
   "date": "2026-12-16",
   "start": "17:00",
   "end": "18:00",
@@ -3639,7 +4040,27 @@ window.TR_EVENTS = [
   "description": "Discussion group reading The Wishing Bridge."
  },
  {
-  "id": "2026-12-16-159",
+  "id": "2026-12-16-179",
+  "date": "2026-12-16",
+  "start": "18:00",
+  "end": "19:30",
+  "title": "Zebulon Writers' Group: Winter Write-in",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Zebulon Community Library, Zebulon",
+  "city": "Zebulon",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Writing"
+  ],
+  "url": "https://www.wake.gov/events/zebulon-writers-group-winter-write-0",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2026-12-16-180",
   "date": "2026-12-16",
   "start": "18:30",
   "end": "19:30",
@@ -3659,7 +4080,7 @@ window.TR_EVENTS = [
   "description": "Monthly book club for strange and surprising books."
  },
  {
-  "id": "2026-12-16-160",
+  "id": "2026-12-16-181",
   "date": "2026-12-16",
   "start": "18:30",
   "end": "19:30",
@@ -3679,7 +4100,7 @@ window.TR_EVENTS = [
   "description": "Virtual book club reviewing 2026 favorites and upcoming picks."
  },
  {
-  "id": "2026-12-16-161",
+  "id": "2026-12-16-182",
   "date": "2026-12-16",
   "start": "18:30",
   "end": "19:30",
@@ -3699,7 +4120,7 @@ window.TR_EVENTS = [
   "description": "Book discussion of The Remains of the Day by Kazuo Ishiguro."
  },
  {
-  "id": "2026-12-16-162",
+  "id": "2026-12-16-183",
   "date": "2026-12-16",
   "start": "18:30",
   "end": "19:30",
@@ -3719,7 +4140,27 @@ window.TR_EVENTS = [
   "description": "Cookbook club discussing Pasta Queen by Nadia Caterina Munno."
  },
  {
-  "id": "2026-12-17-163",
+  "id": "2026-12-16-184",
+  "date": "2026-12-16",
+  "start": "18:30",
+  "end": "20:00",
+  "title": "Wake Forest Writers' Group: Revising and Editing with Jenee Duarty",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Wake Forest Community Library, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Writing"
+  ],
+  "url": "https://www.wake.gov/events/wake-forest-writers-group-revising-and-editing-local-author-jenee-duarty",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2026-12-17-185",
   "date": "2026-12-17",
   "start": "09:30",
   "end": "",
@@ -3739,7 +4180,7 @@ window.TR_EVENTS = [
   "description": "Spanish-language storytime for young children held every other Thursday morning with ISLA."
  },
  {
-  "id": "2026-12-17-164",
+  "id": "2026-12-17-186",
   "date": "2026-12-17",
   "start": "10:30",
   "end": "11:30",
@@ -3759,7 +4200,7 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2026-12-17-165",
+  "id": "2026-12-17-187",
   "date": "2026-12-17",
   "start": "13:00",
   "end": "14:00",
@@ -3779,7 +4220,7 @@ window.TR_EVENTS = [
   "description": "Program built around Sam Kean's book Dinner with King Tut."
  },
  {
-  "id": "2026-12-17-166",
+  "id": "2026-12-17-188",
   "date": "2026-12-17",
   "start": "17:45",
   "end": "",
@@ -3799,7 +4240,7 @@ window.TR_EVENTS = [
   "description": "Monthly queer book club discussing One Last Stop by Casey McQuiston."
  },
  {
-  "id": "2026-12-17-167",
+  "id": "2026-12-17-189",
   "date": "2026-12-17",
   "start": "18:30",
   "end": "19:30",
@@ -3819,7 +4260,7 @@ window.TR_EVENTS = [
   "description": "Virtual graphic novel book club where members bring their own book."
  },
  {
-  "id": "2026-12-17-168",
+  "id": "2026-12-17-190",
   "date": "2026-12-17",
   "start": "18:30",
   "end": "19:30",
@@ -3839,7 +4280,7 @@ window.TR_EVENTS = [
   "description": "Reading and discussion of The Most Wonderful Crime of the Year by Ally Carter."
  },
  {
-  "id": "2026-12-17-169",
+  "id": "2026-12-17-191",
   "date": "2026-12-17",
   "start": "18:30",
   "end": "19:30",
@@ -3859,7 +4300,7 @@ window.TR_EVENTS = [
   "description": "Book club discussing Small Things Like These."
  },
  {
-  "id": "2026-12-17-170",
+  "id": "2026-12-17-192",
   "date": "2026-12-17",
   "start": "19:00",
   "end": "20:00",
@@ -3879,7 +4320,67 @@ window.TR_EVENTS = [
   "description": "Book discussion of Dickens and Prince by Nick Hornby."
  },
  {
-  "id": "2026-12-19-171",
+  "id": "2026-12-17-193",
+  "date": "2026-12-17",
+  "start": "19:00",
+  "end": "21:00",
+  "title": "Talk Smutty to Me x Bitter Social",
+  "endDate": "",
+  "host": "Blackbird Books & Coffee",
+  "hostType": "Bookstore",
+  "location": "104 S Wilmington St., Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://blackbirdbooksandcoffee.com/event/2026-12-17/talk-smutty-me-x-bitter-social",
+  "notes": "ticketed; adults",
+  "description": "An evening of steamy poetry and prose readings by Bitter Social and Blackbird Books."
+ },
+ {
+  "id": "2026-12-17-194",
+  "date": "2026-12-17",
+  "start": "19:00",
+  "end": "",
+  "title": "Forever Young Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Online",
+  "city": "Online",
+  "county": "",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-17/forever-young-book-club",
+  "notes": "virtual",
+  "description": "Book club for adult readers of young adult and teen literature."
+ },
+ {
+  "id": "2026-12-19-195",
+  "date": "2026-12-19",
+  "start": "10:15",
+  "end": "11:15",
+  "title": "Saturday Morning Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (contact Quail Ridge Books for location), Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-19/saturday-morning-book-club",
+  "notes": "offsite",
+  "description": "Saturday morning book club; new members welcome."
+ },
+ {
+  "id": "2026-12-19-196",
   "date": "2026-12-19",
   "start": "11:00",
   "end": "",
@@ -3899,7 +4400,7 @@ window.TR_EVENTS = [
   "description": "Storyteller Donald Davis tells stories at the Fearrington Barn, benefiting CORA, the Chatham food bank."
  },
  {
-  "id": "2026-12-19-172",
+  "id": "2026-12-19-197",
   "date": "2026-12-19",
   "start": "11:00",
   "end": "",
@@ -3919,7 +4420,7 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-19-173",
+  "id": "2026-12-19-198",
   "date": "2026-12-19",
   "start": "11:00",
   "end": "13:00",
@@ -3939,7 +4440,7 @@ window.TR_EVENTS = [
   "description": "In-store showcase where independent authors share their work with the community."
  },
  {
-  "id": "2026-12-20-174",
+  "id": "2026-12-20-199",
   "date": "2026-12-20",
   "start": "14:00",
   "end": "",
@@ -3959,7 +4460,7 @@ window.TR_EVENTS = [
   "description": "Storyteller Donald Davis returns for his 35th annual Stories for a Holiday Season."
  },
  {
-  "id": "2026-12-20-175",
+  "id": "2026-12-20-200",
   "date": "2026-12-20",
   "start": "14:00",
   "end": "",
@@ -3979,7 +4480,7 @@ window.TR_EVENTS = [
   "description": "Writing workshop for people who want to start writing or improve their writing."
  },
  {
-  "id": "2026-12-21-176",
+  "id": "2026-12-21-201",
   "date": "2026-12-21",
   "start": "15:00",
   "end": "16:00",
@@ -3999,7 +4500,7 @@ window.TR_EVENTS = [
   "description": "Book club where members pick the title."
  },
  {
-  "id": "2026-12-21-177",
+  "id": "2026-12-21-202",
   "date": "2026-12-21",
   "start": "18:30",
   "end": "19:30",
@@ -4019,7 +4520,7 @@ window.TR_EVENTS = [
   "description": "Part 2 of a discussion of Tristram Shandy by Laurence Sterne."
  },
  {
-  "id": "2026-12-22-178",
+  "id": "2026-12-22-203",
   "date": "2026-12-22",
   "start": "11:00",
   "end": "",
@@ -4039,7 +4540,7 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-22-179",
+  "id": "2026-12-22-204",
   "date": "2026-12-22",
   "start": "17:00",
   "end": "19:00",
@@ -4059,7 +4560,7 @@ window.TR_EVENTS = [
   "description": "A casual session for writers to talk about projects and write."
  },
  {
-  "id": "2026-12-24-180",
+  "id": "2026-12-24-205",
   "date": "2026-12-24",
   "start": "10:30",
   "end": "11:30",
@@ -4079,7 +4580,7 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2026-12-24-181",
+  "id": "2026-12-24-206",
   "date": "2026-12-24",
   "start": "16:00",
   "end": "17:00",
@@ -4100,7 +4601,7 @@ window.TR_EVENTS = [
   "description": "Monthly kids book club."
  },
  {
-  "id": "2026-12-26-182",
+  "id": "2026-12-26-207",
   "date": "2026-12-26",
   "start": "11:00",
   "end": "",
@@ -4120,7 +4621,7 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-28-183",
+  "id": "2026-12-28-208",
   "date": "2026-12-28",
   "start": "14:00",
   "end": "15:00",
@@ -4140,7 +4641,7 @@ window.TR_EVENTS = [
   "description": "Reading and discussion of Remember by Lisa Genova."
  },
  {
-  "id": "2026-12-28-184",
+  "id": "2026-12-28-209",
   "date": "2026-12-28",
   "start": "18:00",
   "end": "19:00",
@@ -4160,7 +4661,7 @@ window.TR_EVENTS = [
   "description": "Monthly romance book club discussing A Married Little Christmas by Abby Jimenez."
  },
  {
-  "id": "2026-12-28-185",
+  "id": "2026-12-28-210",
   "date": "2026-12-28",
   "start": "18:30",
   "end": "19:30",
@@ -4180,7 +4681,27 @@ window.TR_EVENTS = [
   "description": "Horror book club that meets on the last Monday of the month."
  },
  {
-  "id": "2026-12-29-186",
+  "id": "2026-12-28-211",
+  "date": "2026-12-28",
+  "start": "19:00",
+  "end": "",
+  "title": "Contemporary Fiction Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (contact Quail Ridge Books for location), Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2026-12-28/contemporary-fiction-book-club-offsite",
+  "notes": "offsite",
+  "description": "Monthly book club discussing current fiction; new members welcome."
+ },
+ {
+  "id": "2026-12-29-212",
   "date": "2026-12-29",
   "start": "11:00",
   "end": "",
@@ -4200,7 +4721,7 @@ window.TR_EVENTS = [
   "description": "Storytime for children at the bookstore."
  },
  {
-  "id": "2026-12-30-187",
+  "id": "2026-12-30-213",
   "date": "2026-12-30",
   "start": "18:30",
   "end": "19:30",
@@ -4220,7 +4741,7 @@ window.TR_EVENTS = [
   "description": "Virtual book discussion of Kiss Her Once for Me by Alison Cochrun."
  },
  {
-  "id": "2026-12-31-188",
+  "id": "2026-12-31-214",
   "date": "2026-12-31",
   "start": "10:30",
   "end": "11:30",
@@ -4240,7 +4761,7 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2027-01-01-189",
+  "id": "2027-01-01-215",
   "date": "2027-01-01",
   "start": "12:15",
   "end": "12:45",
@@ -4260,7 +4781,207 @@ window.TR_EVENTS = [
   "description": "Library staff turn the pages of the four-volume Birds of America folio for visitors on the first Friday of each month."
  },
  {
-  "id": "2027-01-07-190",
+  "id": "2027-01-04-216",
+  "date": "2027-01-04",
+  "start": "18:00",
+  "end": "",
+  "title": "Horror Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-04/horror-book-club",
+  "notes": "",
+  "description": "Horror book club reading Happy Hour by Gemma Amor."
+ },
+ {
+  "id": "2027-01-04-217",
+  "date": "2027-01-04",
+  "start": "18:00",
+  "end": "",
+  "title": "The Book Was Better Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-04/book-was-better-book-club",
+  "notes": "",
+  "description": "Page-to-screen book club reading Jurassic Park by Michael Crichton."
+ },
+ {
+  "id": "2027-01-04-218",
+  "date": "2027-01-04",
+  "start": "19:00",
+  "end": "",
+  "title": "Mystery Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2027-01-04/mystery-book-club",
+  "notes": "",
+  "description": "Members read a mystery on the month's topic and discuss it."
+ },
+ {
+  "id": "2027-01-04-219",
+  "date": "2027-01-04",
+  "start": "19:00",
+  "end": "20:00",
+  "title": "Novel Readers: Lessons in Chemistry",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Eva Perry Regional Library, Apex",
+  "city": "Apex",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://www.wake.gov/events/novel-readers-lessons-chemistry",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-05-220",
+  "date": "2027-01-05",
+  "start": "14:30",
+  "end": "15:30",
+  "title": "Sweet Enough by Alison Roman",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Special Event"
+  ],
+  "url": "https://www.wake.gov/events/sweet-enough-alison-roman",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-05-221",
+  "date": "2027-01-05",
+  "start": "15:00",
+  "end": "16:00",
+  "title": "Red Herrings Book Club: Killers of a Certain Age",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Cary Regional Library, Cary",
+  "city": "Cary",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/red-herrings-book-club-killers-certain-age",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-05-222",
+  "date": "2027-01-05",
+  "start": "17:30",
+  "end": "19:00",
+  "title": "Kendall Annette: Tylor Whitlock Just Won't Die, with Meredith Adamo",
+  "endDate": "",
+  "host": "Flyleaf Books",
+  "hostType": "Bookstore",
+  "location": "Flyleaf Books, 752 MLK Jr Blvd, Chapel Hill",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://flyleafbooks.com/event/annette-2027",
+  "notes": "seating limited",
+  "description": "Kendall Annette launches a dark rom-com novel in conversation with Meredith Adamo."
+ },
+ {
+  "id": "2027-01-05-223",
+  "date": "2027-01-05",
+  "start": "18:00",
+  "end": "",
+  "title": "Evening Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-05/evening-book-club",
+  "notes": "",
+  "description": "Evening book club reading To Kill A Mockingbird by Harper Lee."
+ },
+ {
+  "id": "2027-01-06-224",
+  "date": "2027-01-06",
+  "start": "10:00",
+  "end": "11:00",
+  "title": "Mystery Book Club: The Queens of Crime",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/mystery-book-club-queens-crime",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-06-225",
+  "date": "2027-01-06",
+  "start": "14:30",
+  "end": "15:30",
+  "title": "Cookbook Club: Good Looking Cookin: A Year of Meals",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "East Regional Library, Knightdale",
+  "city": "Knightdale",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/cookbook-club-good-looking-cookin-year-meals",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-07-226",
   "date": "2027-01-07",
   "start": "10:30",
   "end": "11:30",
@@ -4280,7 +5001,67 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2027-01-08-191",
+  "id": "2027-01-07-227",
+  "date": "2027-01-07",
+  "start": "17:30",
+  "end": "19:00",
+  "title": "Laurel Ferejohn: Crossings, with Georgann Eubanks",
+  "endDate": "",
+  "host": "Flyleaf Books",
+  "hostType": "Bookstore",
+  "location": "Flyleaf Books, 752 MLK Jr Blvd, Chapel Hill",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://flyleafbooks.com/event/ferejohn-2027",
+  "notes": "seating limited",
+  "description": "Laurel Ferejohn presents her novel Crossings in conversation with Georgann Eubanks."
+ },
+ {
+  "id": "2027-01-07-228",
+  "date": "2027-01-07",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Mystery Book Club: The Queens of Crime (evening)",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/mystery-book-club-queens-crime-0",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-08-229",
+  "date": "2027-01-08",
+  "start": "16:00",
+  "end": "17:00",
+  "title": "Wendell BookWorms: Vera Wong's Unsolicited Advice for Murderers",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Wendell Community Library, Wendell",
+  "city": "Wendell",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://www.wake.gov/events/wendell-bookworms-vera-wongs-unsolicited-advice-murderers",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-08-230",
   "date": "2027-01-08",
   "start": "18:30",
   "end": "19:30",
@@ -4300,7 +5081,7 @@ window.TR_EVENTS = [
   "description": "Book club focused on books by queer authors across all genres."
  },
  {
-  "id": "2027-01-08-192",
+  "id": "2027-01-08-231",
   "date": "2027-01-08",
   "start": "19:00",
   "end": "",
@@ -4320,7 +5101,67 @@ window.TR_EVENTS = [
   "description": "Monthly book club that reads queer and trans fiction and nonfiction."
  },
  {
-  "id": "2027-01-11-193",
+  "id": "2027-01-10-232",
+  "date": "2027-01-10",
+  "start": "",
+  "end": "",
+  "title": "Book Club Against Authoritarianism",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-10/book-club-against-authoritarianism",
+  "notes": "time not confirmed; check the listing",
+  "description": "Book club with Wake Forest Indivisible reading Language of the Third Reich by Victor Klemperer."
+ },
+ {
+  "id": "2027-01-11-233",
+  "date": "2027-01-11",
+  "start": "11:00",
+  "end": "",
+  "title": "Day Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-11/day-book-club",
+  "notes": "",
+  "description": "Daytime book club reading The Foursome by Christina Baker Kline."
+ },
+ {
+  "id": "2027-01-11-234",
+  "date": "2027-01-11",
+  "start": "18:00",
+  "end": "",
+  "title": "Wake Forest Pride Queer Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-11/wake-forest-pride-queer-book-club",
+  "notes": "",
+  "description": "Queer book club reading We Burned So Bright by TJ Klune."
+ },
+ {
+  "id": "2027-01-11-235",
   "date": "2027-01-11",
   "start": "18:30",
   "end": "19:30",
@@ -4340,7 +5181,7 @@ window.TR_EVENTS = [
   "description": "Book club discussing the hottest new fiction titles."
  },
  {
-  "id": "2027-01-11-194",
+  "id": "2027-01-11-236",
   "date": "2027-01-11",
   "start": "19:00",
   "end": "",
@@ -4360,7 +5201,67 @@ window.TR_EVENTS = [
   "description": "Book club open to anyone, choosing books that generally appeal to male readers."
  },
  {
-  "id": "2027-01-12-195",
+  "id": "2027-01-11-237",
+  "date": "2027-01-11",
+  "start": "21:30",
+  "end": "",
+  "title": "ACOTAR Midnight Release Party",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Special Event"
+  ],
+  "url": "https://quailridgebooks.com/event/acotar27",
+  "notes": "ticketed; costumes encouraged",
+  "description": "After-hours midnight release party for A Court of Forgotten Melody."
+ },
+ {
+  "id": "2027-01-12-238",
+  "date": "2027-01-12",
+  "start": "10:00",
+  "end": "11:00",
+  "title": "How Novel! Book Club: Beautiful Ugly",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Cary Regional Library, Cary",
+  "city": "Cary",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/how-novel-book-club-beautiful-ugly",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-12-239",
+  "date": "2027-01-12",
+  "start": "10:00",
+  "end": "11:00",
+  "title": "Novel Readers: Three Days in June",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://www.wake.gov/events/novel-readers-three-days-june",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-12-240",
   "date": "2027-01-12",
   "start": "14:30",
   "end": "",
@@ -4380,7 +5281,167 @@ window.TR_EVENTS = [
   "description": "Book club for Osher Lifelong Learning Institute groups that meets on the second Tuesday."
  },
  {
-  "id": "2027-01-14-196",
+  "id": "2027-01-12-241",
+  "date": "2027-01-12",
+  "start": "18:00",
+  "end": "",
+  "title": "YA For Adults Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-12/ya-adults-book-club",
+  "notes": "",
+  "description": "YA for adults book club reading Children of Blood and Bone by Tomi Adeyemi."
+ },
+ {
+  "id": "2027-01-13-242",
+  "date": "2027-01-13",
+  "start": "10:00",
+  "end": "11:00",
+  "title": "Booktroverts Book Club: The Frozen River",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Northeast Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/booktroverts-book-club-frozen-river",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-13-243",
+  "date": "2027-01-13",
+  "start": "10:00",
+  "end": "11:00",
+  "title": "Wednesday Novel Readers: What Kind of Paradise",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Eva Perry Regional Library, Apex",
+  "city": "Apex",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://www.wake.gov/events/wednesday-novel-readers-what-kind-paradise",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-13-244",
+  "date": "2027-01-13",
+  "start": "14:30",
+  "end": "16:00",
+  "title": "Novel Readers: The Correspondent",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "East Regional Library, Knightdale",
+  "city": "Knightdale",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://www.wake.gov/events/novel-readers-correspondent",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-13-245",
+  "date": "2027-01-13",
+  "start": "18:00",
+  "end": "",
+  "title": "Author Event: Walter Bennett",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://page158books.com/event/2027-01-13/author-event-walter-bennett",
+  "notes": "RSVP via Eventbrite",
+  "description": "Walter Bennett celebrates Sayla Is My Name in conversation with Nell Joslin."
+ },
+ {
+  "id": "2027-01-13-246",
+  "date": "2027-01-13",
+  "start": "18:30",
+  "end": "",
+  "title": "Therese Anne Fowler: Perilous Beautiful World",
+  "endDate": "",
+  "host": "McIntyre's Books",
+  "hostType": "Bookstore",
+  "location": "McIntyre's Books, 220 Market Street, Fearrington Village, Pittsboro",
+  "city": "Pittsboro",
+  "county": "Chatham",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://mcintyresbooks.com/event/2027-01-13/therese-anne-fowler-perilous-beautiful-world",
+  "notes": "",
+  "description": "Therese Anne Fowler launches Perilous Beautiful World in conversation with Amy Einhorn."
+ },
+ {
+  "id": "2027-01-13-247",
+  "date": "2027-01-13",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Book Club: The Phoenix Pencil Company by Allison King",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Zebulon Community Library, Zebulon",
+  "city": "Zebulon",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/phoenix-pencil-company-allison-king",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-13-248",
+  "date": "2027-01-13",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Virtual Variety Book Club: London Falling",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Online",
+  "city": "Online",
+  "county": "",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/virtual-variety-book-club-london-falling",
+  "notes": "virtual",
+  "description": ""
+ },
+ {
+  "id": "2027-01-14-249",
   "date": "2027-01-14",
   "start": "10:30",
   "end": "11:30",
@@ -4400,7 +5461,27 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2027-01-14-197",
+  "id": "2027-01-14-250",
+  "date": "2027-01-14",
+  "start": "10:30",
+  "end": "11:30",
+  "title": "Book Club: Once Upon a Wardrobe by Patti Callahan",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Southeast Regional Library, Garner",
+  "city": "Garner",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/once-upon-wardrobe-patti-callahan",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-14-251",
   "date": "2027-01-14",
   "start": "18:00",
   "end": "",
@@ -4420,7 +5501,27 @@ window.TR_EVENTS = [
   "description": "Mystery dinner with the Killer Author Club celebrating the release of their new book Take Back the Night."
  },
  {
-  "id": "2027-01-15-198",
+  "id": "2027-01-14-252",
+  "date": "2027-01-14",
+  "start": "18:30",
+  "end": "20:00",
+  "title": "Cary Inklings Writing Group",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Cary Regional Library, Cary",
+  "city": "Cary",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Writing"
+  ],
+  "url": "https://www.wake.gov/events/cary-inklings-writing-group-20",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-15-253",
   "date": "2027-01-15",
   "start": "18:30",
   "end": "19:30",
@@ -4440,7 +5541,7 @@ window.TR_EVENTS = [
   "description": "Romance book club for readers who love romance novels."
  },
  {
-  "id": "2027-01-16-199",
+  "id": "2027-01-16-254",
   "date": "2027-01-16",
   "start": "10:15",
   "end": "11:15",
@@ -4460,7 +5561,27 @@ window.TR_EVENTS = [
   "description": "In-store book club that meets Saturday mornings to discuss its current reading."
  },
  {
-  "id": "2027-01-16-200",
+  "id": "2027-01-16-255",
+  "date": "2027-01-16",
+  "start": "10:30",
+  "end": "11:00",
+  "title": "Family Storytime @ Southwest Regional",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "Southwest Regional Library, 3605 Shannon Rd, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/17886361",
+  "notes": "drop-in",
+  "description": "Saturday family storytime with stories, fingerplays and songs."
+ },
+ {
+  "id": "2027-01-16-256",
   "date": "2027-01-16",
   "start": "11:00",
   "end": "13:00",
@@ -4480,7 +5601,27 @@ window.TR_EVENTS = [
   "description": "In-store showcase where independent authors share their work with the community."
  },
  {
-  "id": "2027-01-16-201",
+  "id": "2027-01-16-257",
+  "date": "2027-01-16",
+  "start": "11:00",
+  "end": "11:45",
+  "title": "Family Fables (Storytime)",
+  "endDate": "",
+  "host": "Durham County Libraries",
+  "hostType": "Library",
+  "location": "East Regional Library, 211 Lick Creek Lane, Durham",
+  "city": "Durham",
+  "county": "Durham",
+  "space": "Library",
+  "types": [
+   "For Kids"
+  ],
+  "url": "https://durhamcountylibrary.libcal.com/event/17562368",
+  "notes": "registration opens Dec 26",
+  "description": "Interactive stories, action songs and finger plays for ages 0-5."
+ },
+ {
+  "id": "2027-01-16-258",
   "date": "2027-01-16",
   "start": "17:00",
   "end": "18:00",
@@ -4500,7 +5641,7 @@ window.TR_EVENTS = [
   "description": "Narrative nonfiction book club."
  },
  {
-  "id": "2027-01-17-202",
+  "id": "2027-01-17-259",
   "date": "2027-01-17",
   "start": "16:00",
   "end": "",
@@ -4520,7 +5661,7 @@ window.TR_EVENTS = [
   "description": "Book club that discusses a literary classic, its author, and its importance."
  },
  {
-  "id": "2027-01-18-203",
+  "id": "2027-01-18-260",
   "date": "2027-01-18",
   "start": "19:00",
   "end": "",
@@ -4540,7 +5681,167 @@ window.TR_EVENTS = [
   "description": "Book club that explores Middle Eastern culture through literature."
  },
  {
-  "id": "2027-01-21-204",
+  "id": "2027-01-19-261",
+  "date": "2027-01-19",
+  "start": "11:00",
+  "end": "12:00",
+  "title": "Historical Fiction Book Club: Harlem Rhapsody",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Eva Perry Regional Library, Apex",
+  "city": "Apex",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/historical-fiction-book-club-harlem-rhapsody",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-19-262",
+  "date": "2027-01-19",
+  "start": "11:00",
+  "end": "12:30",
+  "title": "Poetry Club: Blue",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Northeast Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Poetry"
+  ],
+  "url": "https://www.wake.gov/events/poetry-club-blue",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-19-263",
+  "date": "2027-01-19",
+  "start": "17:30",
+  "end": "19:00",
+  "title": "Chinelo Okparanta: This Impossible Life, with Jill McCorkle",
+  "endDate": "",
+  "host": "Flyleaf Books",
+  "hostType": "Bookstore",
+  "location": "Flyleaf Books, 752 MLK Jr Blvd, Chapel Hill",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://flyleafbooks.com/event/okparanta-2027",
+  "notes": "seating limited",
+  "description": "Chinelo Okparanta discusses her novel with Jill McCorkle."
+ },
+ {
+  "id": "2027-01-20-264",
+  "date": "2027-01-20",
+  "start": "11:00",
+  "end": "",
+  "title": "Historical Fiction Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-20/historical-fiction-book-club",
+  "notes": "",
+  "description": "Historical fiction book club reading The Invincible Miss Cust by Penny Haw."
+ },
+ {
+  "id": "2027-01-20-265",
+  "date": "2027-01-20",
+  "start": "18:30",
+  "end": "",
+  "title": "WTF Did I Just Read? Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-20/wtf-did-i-just-read-book-club",
+  "notes": "",
+  "description": "Book club reading From the Library of Jurgen Leitner by Premee Mohamed."
+ },
+ {
+  "id": "2027-01-20-266",
+  "date": "2027-01-20",
+  "start": "18:30",
+  "end": "",
+  "title": "Therese Anne Fowler: Perilous Beautiful World, with Sharon Kurtzman",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://quailridgebooks.com/event/thereseannefowler26",
+  "notes": "ticketed; book included",
+  "description": "NC author Therese Anne Fowler in conversation with Sharon Kurtzman."
+ },
+ {
+  "id": "2027-01-20-267",
+  "date": "2027-01-20",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Cookbook Book Club: A Grandfather's Lesson",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Northeast Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/cookbook-book-club-grandfathers-lesson",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-20-268",
+  "date": "2027-01-20",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Infinite Worlds Book Club: The Ferryman",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Online",
+  "city": "Online",
+  "county": "",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/infinite-worlds-book-club-ferryman",
+  "notes": "virtual",
+  "description": ""
+ },
+ {
+  "id": "2027-01-21-269",
   "date": "2027-01-21",
   "start": "10:30",
   "end": "11:30",
@@ -4560,7 +5861,227 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2027-01-25-205",
+  "id": "2027-01-21-270",
+  "date": "2027-01-21",
+  "start": "18:00",
+  "end": "19:00",
+  "title": "Athens Drive Book Club: The Berry Pickers",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Athens Drive Community Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/athens-drive-book-club-berry-pickers",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-21-271",
+  "date": "2027-01-21",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Graphic Novel Book Club: Eat the Rich",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Online",
+  "city": "Online",
+  "county": "",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/graphic-novel-book-club-eat-rich",
+  "notes": "virtual",
+  "description": ""
+ },
+ {
+  "id": "2027-01-21-272",
+  "date": "2027-01-21",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "New Romantics Book Club: Georgie, All Along",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "East Regional Library, Knightdale",
+  "city": "Knightdale",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/new-romantics-book-club-georgie-all-along",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-21-273",
+  "date": "2027-01-21",
+  "start": "19:00",
+  "end": "",
+  "title": "Forever Young Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2027-01-21/forever-young-book-club",
+  "notes": "",
+  "description": "Book club for adult readers of young adult and teen literature."
+ },
+ {
+  "id": "2027-01-21-274",
+  "date": "2027-01-21",
+  "start": "19:00",
+  "end": "21:00",
+  "title": "Real Reads Book Club: Hidden Valley Road by Robert Kolker",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Cary Regional Library, Cary",
+  "city": "Cary",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/real-reads-book-club-hidden-valley-road-robert-kolker",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-23-275",
+  "date": "2027-01-23",
+  "start": "15:00",
+  "end": "",
+  "title": "Author Event: Adele Myers",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://page158books.com/event/2027-01-23/author-event-adele-myers",
+  "notes": "RSVP via Eventbrite",
+  "description": "Adele Myers celebrates her new novel Belle Haven Finishing School."
+ },
+ {
+  "id": "2027-01-24-276",
+  "date": "2027-01-24",
+  "start": "14:00",
+  "end": "",
+  "title": "Author Event: Therese Anne Fowler",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://page158books.com/event/2027-01-24/author-event-therese-anne-fowler",
+  "notes": "ticketed; includes hardcover",
+  "description": "Therese Anne Fowler discusses her new release Perilous Beautiful World."
+ },
+ {
+  "id": "2027-01-25-277",
+  "date": "2027-01-25",
+  "start": "11:00",
+  "end": "12:00",
+  "title": "Mystery Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-25/mystery-book-club",
+  "notes": "",
+  "description": "Mystery book club reading The Keeper of Lost Causes by Jussi Adler-Olsen."
+ },
+ {
+  "id": "2027-01-25-278",
+  "date": "2027-01-25",
+  "start": "14:00",
+  "end": "15:00",
+  "title": "Non-Fiction Book Club: The Other Family Doctor",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/non-fiction-book-club-other-family-doctor",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-25-279",
+  "date": "2027-01-25",
+  "start": "15:00",
+  "end": "16:00",
+  "title": "Adult Book Club: We Are All Guilty Here",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Southgate Community Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/adult-book-club-we-are-all-guilty-here-0",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-25-280",
+  "date": "2027-01-25",
+  "start": "18:00",
+  "end": "19:00",
+  "title": "Romance Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-25/romance-book-club",
+  "notes": "",
+  "description": "Romance book club reading Bluebird Gold by Devney Perry."
+ },
+ {
+  "id": "2027-01-25-281",
   "date": "2027-01-25",
   "start": "18:30",
   "end": "19:30",
@@ -4580,7 +6101,167 @@ window.TR_EVENTS = [
   "description": "Horror book club that meets on the last Monday of the month."
  },
  {
-  "id": "2027-01-28-206",
+  "id": "2027-01-25-282",
+  "date": "2027-01-25",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Classics Book Club: I Who Have Never Known Men",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "North Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/classics-i-who-never-known-men",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-25-283",
+  "date": "2027-01-25",
+  "start": "19:00",
+  "end": "",
+  "title": "Contemporary Fiction Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Offsite (contact Quail Ridge Books for location), Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2027-01-25/contemporary-fiction-book-club-offsite",
+  "notes": "offsite",
+  "description": "Monthly book club discussing current fiction; new members welcome."
+ },
+ {
+  "id": "2027-01-26-284",
+  "date": "2027-01-26",
+  "start": "11:30",
+  "end": "12:30",
+  "title": "Cookbook Club: Let's Brunch by Belinda Smith-Sullivan",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Southeast Regional Library, Garner",
+  "city": "Garner",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/cookbook-club-lets-brunch-belinda-smith-sullivan",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-26-285",
+  "date": "2027-01-26",
+  "start": "18:30",
+  "end": "",
+  "title": "Abigail DeWitt: Philomene, with Kim Church",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://quailridgebooks.com/event/abigaildewitt27",
+  "notes": "ticketed; book included",
+  "description": "NC author Abigail DeWitt in conversation with Kim Church, followed by a signing."
+ },
+ {
+  "id": "2027-01-27-286",
+  "date": "2027-01-27",
+  "start": "17:30",
+  "end": "",
+  "title": "Nonfiction Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-27/nonfiction-book-club",
+  "notes": "",
+  "description": "Nonfiction book club reading This Cursed Beautiful Land by Evan Gershkovich."
+ },
+ {
+  "id": "2027-01-27-287",
+  "date": "2027-01-27",
+  "start": "18:00",
+  "end": "",
+  "title": "Author Event: Gordon Korman",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Author Event"
+  ],
+  "url": "https://page158books.com/event/2027-01-27/author-event-gordon-korman",
+  "notes": "RSVP via Eventbrite",
+  "description": "Middle-grade author Gordon Korman visits the store for an evening event."
+ },
+ {
+  "id": "2027-01-27-288",
+  "date": "2027-01-27",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Notable Novels Book Club: Brotherless Night",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Cary Regional Library, Cary",
+  "city": "Cary",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/notable-novels-book-club-brotherless-night",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-27-289",
+  "date": "2027-01-27",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Love on the Page Book Club: Not in Love",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Online",
+  "city": "Online",
+  "county": "",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/love-page-book-club-not-love",
+  "notes": "virtual",
+  "description": ""
+ },
+ {
+  "id": "2027-01-28-290",
   "date": "2027-01-28",
   "start": "10:30",
   "end": "11:30",
@@ -4600,7 +6281,148 @@ window.TR_EVENTS = [
   "description": "Bookseller Johanna Banana leads a weekly storytime of books and songs mainly for toddlers and preschoolers."
  },
  {
-  "id": "2027-01-31-207",
+  "id": "2027-01-28-291",
+  "date": "2027-01-28",
+  "start": "16:00",
+  "end": "",
+  "title": "Kids Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "For Kids",
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-28/kids-book-club",
+  "notes": "",
+  "description": "Kids book club reading The Misfits: A Royal Conundrum by Lisa Yee."
+ },
+ {
+  "id": "2027-01-28-292",
+  "date": "2027-01-28",
+  "start": "18:00",
+  "end": "",
+  "title": "Classics Book Club",
+  "endDate": "",
+  "host": "Page 158 Books",
+  "hostType": "Bookstore",
+  "location": "Page 158 Books, 415 Brooks Street Suite B, Wake Forest",
+  "city": "Wake Forest",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://page158books.com/event/2027-01-28/classics-book-club",
+  "notes": "",
+  "description": "Classics book club reading The Hunchback of Notre Dame by Victor Hugo."
+ },
+ {
+  "id": "2027-01-28-293",
+  "date": "2027-01-28",
+  "start": "18:30",
+  "end": "19:30",
+  "title": "Global Reads Book Club: Enter Ghost",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Northeast Regional Library, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://www.wake.gov/events/global-reads-book-club-enter-ghost",
+  "notes": "",
+  "description": ""
+ },
+ {
+  "id": "2027-01-28-294",
+  "date": "2027-01-28",
+  "start": "19:00",
+  "end": "",
+  "title": "Sci-Fi/Fantasy Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2027-01-28/sci-fifantasy-book-club",
+  "notes": "",
+  "description": "Monthly science fiction and fantasy book club."
+ },
+ {
+  "id": "2027-01-29-295",
+  "date": "2027-01-29",
+  "start": "10:15",
+  "end": "",
+  "title": "Wonderland Book Club",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Quail Ridge Books, 4209-100 Lassiter Mill Rd, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Bookstore",
+  "types": [
+   "Book Club"
+  ],
+  "url": "https://quailridgebooks.com/event/2027-01-29/wonderland-book-club",
+  "notes": "open to the public",
+  "description": "Book club run by the NC Writers' Network, meeting the last Friday of the month."
+ },
+ {
+  "id": "2027-01-30-296",
+  "date": "2027-01-30",
+  "start": "14:00",
+  "end": "",
+  "title": "Kate DiCamillo",
+  "endDate": "",
+  "host": "Quail Ridge Books",
+  "hostType": "Bookstore",
+  "location": "Jones Chapel, Meredith College, 3800 Hillsborough St, Raleigh",
+  "city": "Raleigh",
+  "county": "Wake",
+  "space": "Other Venue",
+  "types": [
+   "Special Event"
+  ],
+  "url": "https://quailridgebooks.com/event/katedicamillo27",
+  "notes": "sold out; waitlist",
+  "description": "Author talk and signing with Kate DiCamillo at Meredith College."
+ },
+ {
+  "id": "2027-01-30-297",
+  "date": "2027-01-30",
+  "start": "15:00",
+  "end": "16:00",
+  "title": "Garner Readers' Recs (ages 18+)",
+  "endDate": "",
+  "host": "Wake County Libraries",
+  "hostType": "Library",
+  "location": "Southeast Regional Library, Garner",
+  "city": "Garner",
+  "county": "Wake",
+  "space": "Library",
+  "types": [
+   "Special Event"
+  ],
+  "url": "https://www.wake.gov/events/garner-readers-recs-ages-18-3",
+  "notes": "adults",
+  "description": ""
+ },
+ {
+  "id": "2027-01-31-298",
   "date": "2027-01-31",
   "start": "16:00",
   "end": "",
