@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers config for the static site (GitHub Pages still serves the main site).
+  "name": "triangle-reads",
+  "compatibility_date": "2026-11-10",
+  "assets": { "directory": "." },
+  // Needed by `npx wrangler preview`, which Workers Builds runs on PR branches.
+  "previews": {}
+}
